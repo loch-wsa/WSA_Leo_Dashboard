@@ -1,0 +1,223 @@
+unitserialnumber,code,deviceId,timestamp,manual,type,message,alarm_type
+2024003,2000.0,un0000000000002202,2025-01-01 09:00:56,False,4,Received the command for initializationstate,INFO
+2024003,4054.0,un0000000000002202,2025-01-01 09:02:26,False,4,AUTOMATIC TRANSITION - Production State - Continue Potable Water Production,INFO
+2024003,4043.0,un0000000000002202,2025-01-01 09:32:57,False,4,"MEMBRANE DIRECT INTEGRITY (DIT) TEST -  Complete DIT, If The Maximum Allowed Time Without A DIT Has Been Exceeded",INFO
+2024003,4043.0,un0000000000002202,2025-01-01 09:33:26,False,4,"MEMBRANE DIRECT INTEGRITY (DIT) TEST -  Complete DIT, If The Maximum Allowed Time Without A DIT Has Been Exceeded",INFO
+2024003,4054.0,un0000000000002202,2025-01-01 09:54:21,False,4,AUTOMATIC TRANSITION - Production State - Continue Potable Water Production,INFO
+2024003,4061.0,un0000000000002202,2025-01-01 10:42:42,False,4,CLEAN IN PLACE TRIGGER - Transition to Membrane Air Scour State - IF Cleaning In-Place Cycle Trigger Mode Is Set To TIME,INFO
+2024003,4061.0,un0000000000002202,2025-01-01 10:43:12,False,4,CLEAN IN PLACE TRIGGER - Transition to Membrane Air Scour State - IF Cleaning In-Place Cycle Trigger Mode Is Set To TIME,INFO
+2024003,4037.0,un0000000000002202,2025-01-01 10:53:36,False,4,"MEMBRANE CLEANING - TEST Membrane Flux Profile, Post Membrane Air Scouring And/Or Membrane Maintenance Clean",INFO
+2024003,4029.0,un0000000000002202,2025-01-01 11:04:47,False,4,STOP Membrane Flux Profile Test - If Poison Timer Has Ended - Transition to Tag Out State,INFO
+2024003,,un0000000000002202,2025-01-01 21:00:48,False,4,Received the command for stopstate,INFO
+2024003,2000.0,un0000000000002202,2025-01-02 09:00:54,False,4,Received the command for initializationstate,INFO
+2024003,4054.0,un0000000000002202,2025-01-02 09:02:20,False,4,AUTOMATIC TRANSITION - Production State - Continue Potable Water Production,INFO
+2024003,4043.0,un0000000000002202,2025-01-02 09:48:24,False,4,"MEMBRANE DIRECT INTEGRITY (DIT) TEST -  Complete DIT, If The Maximum Allowed Time Without A DIT Has Been Exceeded",INFO
+2024003,4043.0,un0000000000002202,2025-01-02 09:48:54,False,4,"MEMBRANE DIRECT INTEGRITY (DIT) TEST -  Complete DIT, If The Maximum Allowed Time Without A DIT Has Been Exceeded",INFO
+2024003,4054.0,un0000000000002202,2025-01-02 10:09:31,False,4,AUTOMATIC TRANSITION - Production State - Continue Potable Water Production,INFO
+2024003,,un0000000000002202,2025-01-02 21:00:46,False,4,Received the command for stopstate,INFO
+2024003,2000.0,un0000000000002202,2025-01-03 09:00:57,False,4,Received the command for initializationstate,INFO
+2024003,4054.0,un0000000000002202,2025-01-03 09:02:28,False,4,AUTOMATIC TRANSITION - Production State - Continue Potable Water Production,INFO
+2024003,,un0000000000002202,2025-01-03 21:00:46,False,4,Received the command for stopstate,INFO
+2024003,2000.0,un0000000000002202,2025-01-04 09:00:56,False,4,Received the command for initializationstate,INFO
+2024003,4043.0,un0000000000002202,2025-01-04 09:02:23,False,4,"MEMBRANE DIRECT INTEGRITY (DIT) TEST -  Complete DIT, If The Maximum Allowed Time Without A DIT Has Been Exceeded",INFO
+2024003,4027.0,un0000000000002202,2025-01-04 09:12:26,False,4,STOP Membrane Direct Integrity Test Feed Pressurization - Transition To Wait State If DIT Target Test Hold Pressure Could Not Be Reached,INFO
+2024003,4027.0,un0000000000002202,2025-01-04 09:12:26,False,4,STOP Membrane Direct Integrity Test Feed Pressurization - Transition To Wait State If DIT Target Test Hold Pressure Could Not Be Reached,INFO
+2024003,4033.0,un0000000000002202,2025-01-04 09:13:41,False,4,GENERAL SYSTEM - FILL Membrane Feed & Filtrate Sides With Water,INFO
+2024003,4023.0,un0000000000002202,2025-01-04 09:27:49,False,4,STOP Membrane Refill - If Poison Timer Has Ended - Transition to Tag Out State,INFO
+2024003,,un0000000000002202,2025-01-04 21:00:46,False,4,Received the command for stopstate,INFO
+2024003,2000.0,un0000000000002202,2025-01-05 09:00:55,False,4,Received the command for initializationstate,INFO
+2024003,4046.0,un0000000000002202,2025-01-05 09:02:22,False,4,MEMBRANE DIRECT INTEGRITY (DIT) TEST - RETURN To Membrane Direct Integrity Testing (DIT) If LAST DIT Was Interrupted/Was Not Completed In Its Entirety,INFO
+2024003,4027.0,un0000000000002202,2025-01-05 09:14:08,False,4,STOP Membrane Direct Integrity Test Feed Pressurization - Transition To Wait State If DIT Target Test Hold Pressure Could Not Be Reached,INFO
+2024003,4027.0,un0000000000002202,2025-01-05 09:14:08,False,4,STOP Membrane Direct Integrity Test Feed Pressurization - Transition To Wait State If DIT Target Test Hold Pressure Could Not Be Reached,INFO
+2024003,4033.0,un0000000000002202,2025-01-05 09:15:23,False,4,GENERAL SYSTEM - FILL Membrane Feed & Filtrate Sides With Water,INFO
+2024003,4023.0,un0000000000002202,2025-01-05 09:29:31,False,4,STOP Membrane Refill - If Poison Timer Has Ended - Transition to Tag Out State,INFO
+2024003,,un0000000000002202,2025-01-05 21:00:50,False,4,Received the command for stopstate,INFO
+2024003,2000.0,un0000000000002202,2025-01-06 09:00:54,False,4,Received the command for initializationstate,INFO
+2024003,4046.0,un0000000000002202,2025-01-06 09:02:21,False,4,MEMBRANE DIRECT INTEGRITY (DIT) TEST - RETURN To Membrane Direct Integrity Testing (DIT) If LAST DIT Was Interrupted/Was Not Completed In Its Entirety,INFO
+2024003,4027.0,un0000000000002202,2025-01-06 09:14:59,False,4,STOP Membrane Direct Integrity Test Feed Pressurization - Transition To Wait State If DIT Target Test Hold Pressure Could Not Be Reached,INFO
+2024003,4027.0,un0000000000002202,2025-01-06 09:14:59,False,4,STOP Membrane Direct Integrity Test Feed Pressurization - Transition To Wait State If DIT Target Test Hold Pressure Could Not Be Reached,INFO
+2024003,4033.0,un0000000000002202,2025-01-06 09:16:14,False,4,GENERAL SYSTEM - FILL Membrane Feed & Filtrate Sides With Water,INFO
+2024003,4023.0,un0000000000002202,2025-01-06 09:30:22,False,4,STOP Membrane Refill - If Poison Timer Has Ended - Transition to Tag Out State,INFO
+2024003,,un0000000000002202,2025-01-06 21:00:47,False,4,Received the command for stopstate,INFO
+2024003,2000.0,un0000000000002202,2025-01-07 09:00:56,False,4,Received the command for initializationstate,INFO
+2024003,4046.0,un0000000000002202,2025-01-07 09:02:23,False,4,MEMBRANE DIRECT INTEGRITY (DIT) TEST - RETURN To Membrane Direct Integrity Testing (DIT) If LAST DIT Was Interrupted/Was Not Completed In Its Entirety,INFO
+2024003,4027.0,un0000000000002202,2025-01-07 09:16:55,False,4,STOP Membrane Direct Integrity Test Feed Pressurization - Transition To Wait State If DIT Target Test Hold Pressure Could Not Be Reached,INFO
+2024003,4027.0,un0000000000002202,2025-01-07 09:16:55,False,4,STOP Membrane Direct Integrity Test Feed Pressurization - Transition To Wait State If DIT Target Test Hold Pressure Could Not Be Reached,INFO
+2024003,4033.0,un0000000000002202,2025-01-07 09:18:09,False,4,GENERAL SYSTEM - FILL Membrane Feed & Filtrate Sides With Water,INFO
+2024003,4023.0,un0000000000002202,2025-01-07 09:32:17,False,4,STOP Membrane Refill - If Poison Timer Has Ended - Transition to Tag Out State,INFO
+2024003,,un0000000000002202,2025-01-07 21:00:46,False,4,Received the command for stopstate,INFO
+2024003,2000.0,un0000000000002202,2025-01-08 09:00:53,False,4,Received the command for initializationstate,INFO
+2024003,4046.0,un0000000000002202,2025-01-08 09:02:20,False,4,MEMBRANE DIRECT INTEGRITY (DIT) TEST - RETURN To Membrane Direct Integrity Testing (DIT) If LAST DIT Was Interrupted/Was Not Completed In Its Entirety,INFO
+2024003,4027.0,un0000000000002202,2025-01-08 09:12:33,False,4,STOP Membrane Direct Integrity Test Feed Pressurization - Transition To Wait State If DIT Target Test Hold Pressure Could Not Be Reached,INFO
+2024003,4027.0,un0000000000002202,2025-01-08 09:12:33,False,4,STOP Membrane Direct Integrity Test Feed Pressurization - Transition To Wait State If DIT Target Test Hold Pressure Could Not Be Reached,INFO
+2024003,4033.0,un0000000000002202,2025-01-08 09:13:42,False,4,GENERAL SYSTEM - FILL Membrane Feed & Filtrate Sides With Water,INFO
+2024003,4023.0,un0000000000002202,2025-01-08 09:27:46,False,4,STOP Membrane Refill - If Poison Timer Has Ended - Transition to Tag Out State,INFO
+2024003,,un0000000000002202,2025-01-08 21:00:48,False,4,Received the command for stopstate,INFO
+2024003,4046.0,un0000000000002202,2025-01-09 06:51:15,False,4,MEMBRANE DIRECT INTEGRITY (DIT) TEST - RETURN To Membrane Direct Integrity Testing (DIT) If LAST DIT Was Interrupted/Was Not Completed In Its Entirety,INFO
+2024003,4041.0,un0000000000002202,2025-01-09 07:12:07,False,4,AUTOMATIC TRANSITION - Production State,INFO
+2024003,2000.0,un0000000000002202,2025-01-09 09:00:52,False,4,Received the command for initializationstate,INFO
+2024003,4054.0,un0000000000002202,2025-01-09 09:03:15,False,4,AUTOMATIC TRANSITION - Production State - Continue Potable Water Production,INFO
+2024003,4062.0,un0000000000002202,2025-01-09 11:22:19,False,4,CLEAN IN PLACE TRIGGER - Transition to Pre-Filter Flush Clean State - IF Cleaning In-Place Cycle Trigger Mode Is Set To TIME,INFO
+2024003,4062.0,un0000000000002202,2025-01-09 11:22:49,False,4,CLEAN IN PLACE TRIGGER - Transition to Pre-Filter Flush Clean State - IF Cleaning In-Place Cycle Trigger Mode Is Set To TIME,INFO
+2024003,4054.0,un0000000000002202,2025-01-09 11:32:11,False,4,AUTOMATIC TRANSITION - Production State - Continue Potable Water Production,INFO
+2024003,4061.0,un0000000000002202,2025-01-09 11:55:54,False,4,CLEAN IN PLACE TRIGGER - Transition to Membrane Air Scour State - IF Cleaning In-Place Cycle Trigger Mode Is Set To TIME,INFO
+2024003,4061.0,un0000000000002202,2025-01-09 11:56:24,False,4,CLEAN IN PLACE TRIGGER - Transition to Membrane Air Scour State - IF Cleaning In-Place Cycle Trigger Mode Is Set To TIME,INFO
+2024003,4037.0,un0000000000002202,2025-01-09 12:06:39,False,4,"MEMBRANE CLEANING - TEST Membrane Flux Profile, Post Membrane Air Scouring And/Or Membrane Maintenance Clean",INFO
+2024003,4049.0,un0000000000002202,2025-01-09 12:10:56,False,4,STOP Membrane Flux Profile Test - Test FAILED,INFO
+2024003,4039.0,un0000000000002202,2025-01-09 12:12:09,False,4,"MEMBRANE MAINTENANCE CLEAN - If Membrane Flux Profile Test FAILED, TRANSITION To A Membrane Maintenace Clean, If Consecutive Membrane Air Scour Count Is Above Maximum Limit and Consecutive Membrane Maintenance Clean Count Is Below Maximum Limit",INFO
+2024003,4033.0,un0000000000002202,2025-01-09 12:25:25,False,4,GENERAL SYSTEM - FILL Membrane Feed & Filtrate Sides With Water,INFO
+2024003,4035.0,un0000000000002202,2025-01-09 12:31:35,False,4,MEMBRANE MAINTENANCE CLEAN - RINSE Membrane If It Is CHLORINATED OR EXECUTE Another Clean Cycle If LAST Membrane Maintenance Clean Was Interrupted/Was Not Completed In Its Entirety,INFO
+2024003,4028.0,un0000000000002202,2025-01-09 12:32:50,False,4,CHECK - FILL Clean-In-Place (CIP) Water Tank With Treated Water - If Insufficient Volume Of Water Stored In The Clean-In-Place (CIP) Water Tank For Current Sequence,INFO
+2024003,4034.0,un0000000000002202,2025-01-09 12:34:02,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4035.0,un0000000000002202,2025-01-09 12:52:15,False,4,MEMBRANE MAINTENANCE CLEAN - RINSE Membrane If It Is CHLORINATED OR EXECUTE Another Clean Cycle If LAST Membrane Maintenance Clean Was Interrupted/Was Not Completed In Its Entirety,INFO
+2024003,,un0000000000002202,2025-01-09 13:12:10,False,4,Received the command for stopstate,INFO
+2024003,,un0000000000002202,2025-01-09 21:00:48,False,4,Received the command for stopstate,INFO
+2024003,2000.0,un0000000000002202,2025-01-10 09:00:57,False,4,Received the command for initializationstate,INFO
+2024003,4033.0,un0000000000002202,2025-01-10 09:02:30,False,4,GENERAL SYSTEM - FILL Membrane Feed & Filtrate Sides With Water,INFO
+2024003,4035.0,un0000000000002202,2025-01-10 09:09:14,False,4,MEMBRANE MAINTENANCE CLEAN - RINSE Membrane If It Is CHLORINATED OR EXECUTE Another Clean Cycle If LAST Membrane Maintenance Clean Was Interrupted/Was Not Completed In Its Entirety,INFO
+2024003,4035.0,un0000000000002202,2025-01-10 09:21:58,False,4,MEMBRANE MAINTENANCE CLEAN - RINSE Membrane If It Is CHLORINATED OR EXECUTE Another Clean Cycle If LAST Membrane Maintenance Clean Was Interrupted/Was Not Completed In Its Entirety,INFO
+2024003,4028.0,un0000000000002202,2025-01-10 09:23:09,False,4,CHECK - FILL Clean-In-Place (CIP) Water Tank With Treated Water - If Insufficient Volume Of Water Stored In The Clean-In-Place (CIP) Water Tank For Current Sequence,INFO
+2024003,4034.0,un0000000000002202,2025-01-10 09:24:25,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4035.0,un0000000000002202,2025-01-10 09:42:34,False,4,MEMBRANE MAINTENANCE CLEAN - RINSE Membrane If It Is CHLORINATED OR EXECUTE Another Clean Cycle If LAST Membrane Maintenance Clean Was Interrupted/Was Not Completed In Its Entirety,INFO
+2024003,4033.0,un0000000000002202,2025-01-10 09:55:28,False,4,GENERAL SYSTEM - FILL Membrane Feed & Filtrate Sides With Water,INFO
+2024003,4035.0,un0000000000002202,2025-01-10 10:02:11,False,4,MEMBRANE MAINTENANCE CLEAN - RINSE Membrane If It Is CHLORINATED OR EXECUTE Another Clean Cycle If LAST Membrane Maintenance Clean Was Interrupted/Was Not Completed In Its Entirety,INFO
+2024003,4028.0,un0000000000002202,2025-01-10 10:03:28,False,4,CHECK - FILL Clean-In-Place (CIP) Water Tank With Treated Water - If Insufficient Volume Of Water Stored In The Clean-In-Place (CIP) Water Tank For Current Sequence,INFO
+2024003,4034.0,un0000000000002202,2025-01-10 10:04:40,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4035.0,un0000000000002202,2025-01-10 10:22:40,False,4,MEMBRANE MAINTENANCE CLEAN - RINSE Membrane If It Is CHLORINATED OR EXECUTE Another Clean Cycle If LAST Membrane Maintenance Clean Was Interrupted/Was Not Completed In Its Entirety,INFO
+2024003,4037.0,un0000000000002202,2025-01-10 11:00:53,False,4,"MEMBRANE CLEANING - TEST Membrane Flux Profile, Post Membrane Air Scouring And/Or Membrane Maintenance Clean",INFO
+2024003,4028.0,un0000000000002202,2025-01-10 11:02:08,False,4,CHECK - FILL Clean-In-Place (CIP) Water Tank With Treated Water - If Insufficient Volume Of Water Stored In The Clean-In-Place (CIP) Water Tank For Current Sequence,INFO
+2024003,4034.0,un0000000000002202,2025-01-10 11:03:18,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4037.0,un0000000000002202,2025-01-10 11:21:20,False,4,"MEMBRANE CLEANING - TEST Membrane Flux Profile, Post Membrane Air Scouring And/Or Membrane Maintenance Clean",INFO
+2024003,4050.0,un0000000000002202,2025-01-10 11:26:12,False,4,STOP Membrane Flux Profile Test - Test PASSED,INFO
+2024003,4043.0,un0000000000002202,2025-01-10 11:27:24,False,4,"MEMBRANE DIRECT INTEGRITY (DIT) TEST -  Complete DIT, If The Maximum Allowed Time Without A DIT Has Been Exceeded",INFO
+2024003,4054.0,un0000000000002202,2025-01-10 11:48:24,False,4,AUTOMATIC TRANSITION - Production State - Continue Potable Water Production,INFO
+2024003,4041.0,un0000000000002202,2025-01-10 20:14:58,False,4,AUTOMATIC TRANSITION - Production State,INFO
+2024003,,un0000000000002202,2025-01-10 21:00:48,False,4,Received the command for stopstate,INFO
+2024003,2000.0,un0000000000002202,2025-01-11 09:00:57,False,4,Received the command for initializationstate,INFO
+2024003,4054.0,un0000000000002202,2025-01-11 09:02:30,False,4,AUTOMATIC TRANSITION - Production State - Continue Potable Water Production,INFO
+2024003,,un0000000000002202,2025-01-11 21:00:45,False,4,Received the command for stopstate,INFO
+2024003,2000.0,un0000000000002202,2025-01-12 09:00:54,False,4,Received the command for initializationstate,INFO
+2024003,4043.0,un0000000000002202,2025-01-12 09:02:28,False,4,"MEMBRANE DIRECT INTEGRITY (DIT) TEST -  Complete DIT, If The Maximum Allowed Time Without A DIT Has Been Exceeded",INFO
+2024003,4027.0,un0000000000002202,2025-01-12 09:15:33,False,4,STOP Membrane Direct Integrity Test Feed Pressurization - Transition To Wait State If DIT Target Test Hold Pressure Could Not Be Reached,INFO
+2024003,4027.0,un0000000000002202,2025-01-12 09:15:33,False,4,STOP Membrane Direct Integrity Test Feed Pressurization - Transition To Wait State If DIT Target Test Hold Pressure Could Not Be Reached,INFO
+2024003,4033.0,un0000000000002202,2025-01-12 09:16:45,False,4,GENERAL SYSTEM - FILL Membrane Feed & Filtrate Sides With Water,INFO
+2024003,4046.0,un0000000000002202,2025-01-12 09:26:55,False,4,MEMBRANE DIRECT INTEGRITY (DIT) TEST - RETURN To Membrane Direct Integrity Testing (DIT) If LAST DIT Was Interrupted/Was Not Completed In Its Entirety,INFO
+2024003,4054.0,un0000000000002202,2025-01-12 09:48:03,False,4,AUTOMATIC TRANSITION - Production State - Continue Potable Water Production,INFO
+2024003,,un0000000000002202,2025-01-12 21:00:49,False,4,Received the command for stopstate,INFO
+2024003,2000.0,un0000000000002202,2025-01-13 09:00:56,False,4,Received the command for initializationstate,INFO
+2024003,4054.0,un0000000000002202,2025-01-13 09:02:20,False,4,AUTOMATIC TRANSITION - Production State - Continue Potable Water Production,INFO
+2024003,4043.0,un0000000000002202,2025-01-13 09:42:04,False,4,"MEMBRANE DIRECT INTEGRITY (DIT) TEST -  Complete DIT, If The Maximum Allowed Time Without A DIT Has Been Exceeded",INFO
+2024003,4043.0,un0000000000002202,2025-01-13 09:42:32,False,4,"MEMBRANE DIRECT INTEGRITY (DIT) TEST -  Complete DIT, If The Maximum Allowed Time Without A DIT Has Been Exceeded",INFO
+2024003,4054.0,un0000000000002202,2025-01-13 10:03:09,False,4,AUTOMATIC TRANSITION - Production State - Continue Potable Water Production,INFO
+2024003,4061.0,un0000000000002202,2025-01-13 10:56:35,False,4,CLEAN IN PLACE TRIGGER - Transition to Membrane Air Scour State - IF Cleaning In-Place Cycle Trigger Mode Is Set To TIME,INFO
+2024003,4061.0,un0000000000002202,2025-01-13 10:57:06,False,4,CLEAN IN PLACE TRIGGER - Transition to Membrane Air Scour State - IF Cleaning In-Place Cycle Trigger Mode Is Set To TIME,INFO
+2024003,4037.0,un0000000000002202,2025-01-13 11:07:34,False,4,"MEMBRANE CLEANING - TEST Membrane Flux Profile, Post Membrane Air Scouring And/Or Membrane Maintenance Clean",INFO
+2024003,4050.0,un0000000000002202,2025-01-13 11:12:21,False,4,STOP Membrane Flux Profile Test - Test PASSED,INFO
+2024003,4054.0,un0000000000002202,2025-01-13 11:13:29,False,4,AUTOMATIC TRANSITION - Production State - Continue Potable Water Production,INFO
+2024003,,un0000000000002202,2025-01-13 21:00:45,False,4,Received the command for stopstate,INFO
+2024003,2000.0,un0000000000002202,2025-01-13 23:17:46,False,4,Received the command for initializationstate,INFO
+2024003,4036.0,un0000000000002202,2025-01-13 23:23:02,False,4,MEMBRANE AIR SCOUR - EXECUTE Another Clean Cycle If LAST Air Scour Was Interrupted/Was Not Completed In Its Entirety,INFO
+2024003,4036.0,un0000000000002202,2025-01-14 00:14:21,False,4,MEMBRANE AIR SCOUR - EXECUTE Another Clean Cycle If LAST Air Scour Was Interrupted/Was Not Completed In Its Entirety,INFO
+2024003,4028.0,un0000000000002202,2025-01-14 00:15:32,False,4,CHECK - FILL Clean-In-Place (CIP) Water Tank With Treated Water - If Insufficient Volume Of Water Stored In The Clean-In-Place (CIP) Water Tank For Current Sequence,INFO
+2024003,4034.0,un0000000000002202,2025-01-14 00:16:43,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4036.0,un0000000000002202,2025-01-14 00:33:33,False,4,MEMBRANE AIR SCOUR - EXECUTE Another Clean Cycle If LAST Air Scour Was Interrupted/Was Not Completed In Its Entirety,INFO
+2024003,4036.0,un0000000000002202,2025-01-14 00:43:09,False,4,MEMBRANE AIR SCOUR - EXECUTE Another Clean Cycle If LAST Air Scour Was Interrupted/Was Not Completed In Its Entirety,INFO
+2024003,4037.0,un0000000000002202,2025-01-14 01:05:56,False,4,"MEMBRANE CLEANING - TEST Membrane Flux Profile, Post Membrane Air Scouring And/Or Membrane Maintenance Clean",INFO
+2024003,4050.0,un0000000000002202,2025-01-14 01:10:10,False,4,STOP Membrane Flux Profile Test - Test PASSED,INFO
+2024003,4041.0,un0000000000002202,2025-01-14 01:11:20,False,4,AUTOMATIC TRANSITION - Production State,INFO
+2024003,,un0000000000002202,2025-01-14 01:17:00,False,4,Received the command for stopstate,INFO
+2024003,4054.0,un0000000000002202,2025-01-14 01:19:34,False,4,AUTOMATIC TRANSITION - Production State - Continue Potable Water Production,INFO
+2024003,2000.0,un0000000000002202,2025-01-14 09:00:56,False,4,Received the command for initializationstate,INFO
+2024003,4054.0,un0000000000002202,2025-01-14 09:03:13,False,4,AUTOMATIC TRANSITION - Production State - Continue Potable Water Production,INFO
+2024003,,un0000000000002202,2025-01-16 12:19:12,False,4,Received the command for stopstate,INFO
+2024003,2000.0,un0000000000002202,2025-01-16 12:19:42,False,4,Received the command for initializationstate,INFO
+2024003,4043.0,un0000000000002202,2025-01-16 12:21:15,False,4,"MEMBRANE DIRECT INTEGRITY (DIT) TEST -  Complete DIT, If The Maximum Allowed Time Without A DIT Has Been Exceeded",INFO
+2024003,4054.0,un0000000000002202,2025-01-16 12:46:54,False,4,AUTOMATIC TRANSITION - Production State - Continue Potable Water Production,INFO
+2024003,4041.0,un0000000000002202,2025-01-16 14:56:43,False,4,AUTOMATIC TRANSITION - Production State,INFO
+2024003,4061.0,un0000000000002202,2025-01-16 15:09:44,False,4,CLEAN IN PLACE TRIGGER - Transition to Membrane Air Scour State - IF Cleaning In-Place Cycle Trigger Mode Is Set To TIME,INFO
+2024003,4061.0,un0000000000002202,2025-01-16 15:10:12,False,4,CLEAN IN PLACE TRIGGER - Transition to Membrane Air Scour State - IF Cleaning In-Place Cycle Trigger Mode Is Set To TIME,INFO
+2024003,4037.0,un0000000000002202,2025-01-16 15:33:07,False,4,"MEMBRANE CLEANING - TEST Membrane Flux Profile, Post Membrane Air Scouring And/Or Membrane Maintenance Clean",INFO
+2024003,4050.0,un0000000000002202,2025-01-16 15:37:50,False,4,STOP Membrane Flux Profile Test - Test PASSED,INFO
+2024003,4054.0,un0000000000002202,2025-01-16 15:39:07,False,4,AUTOMATIC TRANSITION - Production State - Continue Potable Water Production,INFO
+2024003,4062.0,un0000000000002202,2025-01-16 15:44:49,False,4,CLEAN IN PLACE TRIGGER - Transition to Pre-Filter Flush Clean State - IF Cleaning In-Place Cycle Trigger Mode Is Set To TIME,INFO
+2024003,4062.0,un0000000000002202,2025-01-16 15:45:18,False,4,CLEAN IN PLACE TRIGGER - Transition to Pre-Filter Flush Clean State - IF Cleaning In-Place Cycle Trigger Mode Is Set To TIME,INFO
+2024003,4041.0,un0000000000002202,2025-01-16 15:54:51,False,4,AUTOMATIC TRANSITION - Production State,INFO
+2024003,,un0000000000002202,2025-01-16 21:00:54,False,4,Received the command for stopstate,INFO
+2024003,2000.0,un0000000000002202,2025-01-17 09:00:57,False,4,Received the command for initializationstate,INFO
+2024003,4054.0,un0000000000002202,2025-01-17 09:02:30,False,4,AUTOMATIC TRANSITION - Production State - Continue Potable Water Production,INFO
+2024003,4043.0,un0000000000002202,2025-01-17 12:36:40,False,4,"MEMBRANE DIRECT INTEGRITY (DIT) TEST -  Complete DIT, If The Maximum Allowed Time Without A DIT Has Been Exceeded",INFO
+2024003,4043.0,un0000000000002202,2025-01-17 12:37:08,False,4,"MEMBRANE DIRECT INTEGRITY (DIT) TEST -  Complete DIT, If The Maximum Allowed Time Without A DIT Has Been Exceeded",INFO
+2024003,4027.0,un0000000000002202,2025-01-17 12:46:57,False,4,STOP Membrane Direct Integrity Test Feed Pressurization - Transition To Wait State If DIT Target Test Hold Pressure Could Not Be Reached,INFO
+2024003,4027.0,un0000000000002202,2025-01-17 12:46:57,False,4,STOP Membrane Direct Integrity Test Feed Pressurization - Transition To Wait State If DIT Target Test Hold Pressure Could Not Be Reached,INFO
+2024003,4033.0,un0000000000002202,2025-01-17 12:48:10,False,4,GENERAL SYSTEM - FILL Membrane Feed & Filtrate Sides With Water,INFO
+2024003,4046.0,un0000000000002202,2025-01-17 13:00:03,False,4,MEMBRANE DIRECT INTEGRITY (DIT) TEST - RETURN To Membrane Direct Integrity Testing (DIT) If LAST DIT Was Interrupted/Was Not Completed In Its Entirety,INFO
+2024003,4027.0,un0000000000002202,2025-01-17 13:12:52,False,4,STOP Membrane Direct Integrity Test Feed Pressurization - Transition To Wait State If DIT Target Test Hold Pressure Could Not Be Reached,INFO
+2024003,4027.0,un0000000000002202,2025-01-17 13:12:52,False,4,STOP Membrane Direct Integrity Test Feed Pressurization - Transition To Wait State If DIT Target Test Hold Pressure Could Not Be Reached,INFO
+2024003,4033.0,un0000000000002202,2025-01-17 13:14:04,False,4,GENERAL SYSTEM - FILL Membrane Feed & Filtrate Sides With Water,INFO
+2024003,4046.0,un0000000000002202,2025-01-17 13:25:49,False,4,MEMBRANE DIRECT INTEGRITY (DIT) TEST - RETURN To Membrane Direct Integrity Testing (DIT) If LAST DIT Was Interrupted/Was Not Completed In Its Entirety,INFO
+2024003,4027.0,un0000000000002202,2025-01-17 13:37:40,False,4,STOP Membrane Direct Integrity Test Feed Pressurization - Transition To Wait State If DIT Target Test Hold Pressure Could Not Be Reached,INFO
+2024003,4027.0,un0000000000002202,2025-01-17 13:37:40,False,4,STOP Membrane Direct Integrity Test Feed Pressurization - Transition To Wait State If DIT Target Test Hold Pressure Could Not Be Reached,INFO
+2024003,4033.0,un0000000000002202,2025-01-17 13:38:53,False,4,GENERAL SYSTEM - FILL Membrane Feed & Filtrate Sides With Water,INFO
+2024003,4046.0,un0000000000002202,2025-01-17 13:50:21,False,4,MEMBRANE DIRECT INTEGRITY (DIT) TEST - RETURN To Membrane Direct Integrity Testing (DIT) If LAST DIT Was Interrupted/Was Not Completed In Its Entirety,INFO
+2024003,4054.0,un0000000000002202,2025-01-17 14:16:12,False,4,AUTOMATIC TRANSITION - Production State - Continue Potable Water Production,INFO
+2024003,4043.0,un0000000000002202,2025-01-24 06:11:41,False,4,"MEMBRANE DIRECT INTEGRITY (DIT) TEST -  Complete DIT, If The Maximum Allowed Time Without A DIT Has Been Exceeded",INFO
+2024003,4027.0,un0000000000002202,2025-01-24 06:25:22,False,4,STOP Membrane Direct Integrity Test Feed Pressurization - Transition To Wait State If DIT Target Test Hold Pressure Could Not Be Reached,INFO
+2024003,4027.0,un0000000000002202,2025-01-24 06:25:22,False,4,STOP Membrane Direct Integrity Test Feed Pressurization - Transition To Wait State If DIT Target Test Hold Pressure Could Not Be Reached,INFO
+2024003,4033.0,un0000000000002202,2025-01-24 06:26:35,False,4,GENERAL SYSTEM - FILL Membrane Feed & Filtrate Sides With Water,INFO
+2024003,4046.0,un0000000000002202,2025-01-24 06:38:01,False,4,MEMBRANE DIRECT INTEGRITY (DIT) TEST - RETURN To Membrane Direct Integrity Testing (DIT) If LAST DIT Was Interrupted/Was Not Completed In Its Entirety,INFO
+2024003,4027.0,un0000000000002202,2025-01-24 06:47:33,False,4,STOP Membrane Direct Integrity Test Feed Pressurization - Transition To Wait State If DIT Target Test Hold Pressure Could Not Be Reached,INFO
+2024003,4027.0,un0000000000002202,2025-01-24 06:47:33,False,4,STOP Membrane Direct Integrity Test Feed Pressurization - Transition To Wait State If DIT Target Test Hold Pressure Could Not Be Reached,INFO
+2024003,4033.0,un0000000000002202,2025-01-24 06:48:45,False,4,GENERAL SYSTEM - FILL Membrane Feed & Filtrate Sides With Water,INFO
+2024003,4046.0,un0000000000002202,2025-01-24 07:00:16,False,4,MEMBRANE DIRECT INTEGRITY (DIT) TEST - RETURN To Membrane Direct Integrity Testing (DIT) If LAST DIT Was Interrupted/Was Not Completed In Its Entirety,INFO
+2024003,4054.0,un0000000000002202,2025-01-24 07:25:46,False,4,AUTOMATIC TRANSITION - Production State - Continue Potable Water Production,INFO
+2024003,2000.0,un0000000000002202,2025-01-24 09:00:53,False,4,Received the command for initializationstate,INFO
+2024003,4054.0,un0000000000002202,2025-01-24 09:03:10,False,4,AUTOMATIC TRANSITION - Production State - Continue Potable Water Production,INFO
+2024003,4041.0,un0000000000002202,2025-01-24 10:15:24,False,4,AUTOMATIC TRANSITION - Production State,INFO
+2024003,4061.0,un0000000000002202,2025-01-24 10:29:20,False,4,CLEAN IN PLACE TRIGGER - Transition to Membrane Air Scour State - IF Cleaning In-Place Cycle Trigger Mode Is Set To TIME,INFO
+2024003,4061.0,un0000000000002202,2025-01-24 10:29:49,False,4,CLEAN IN PLACE TRIGGER - Transition to Membrane Air Scour State - IF Cleaning In-Place Cycle Trigger Mode Is Set To TIME,INFO
+2024003,4037.0,un0000000000002202,2025-01-24 10:53:24,False,4,"MEMBRANE CLEANING - TEST Membrane Flux Profile, Post Membrane Air Scouring And/Or Membrane Maintenance Clean",INFO
+2024003,4050.0,un0000000000002202,2025-01-24 10:58:07,False,4,STOP Membrane Flux Profile Test - Test PASSED,INFO
+2024003,4054.0,un0000000000002202,2025-01-24 10:59:24,False,4,AUTOMATIC TRANSITION - Production State - Continue Potable Water Production,INFO
+2024003,4062.0,un0000000000002202,2025-01-24 11:05:01,False,4,CLEAN IN PLACE TRIGGER - Transition to Pre-Filter Flush Clean State - IF Cleaning In-Place Cycle Trigger Mode Is Set To TIME,INFO
+2024003,4062.0,un0000000000002202,2025-01-24 11:05:26,False,4,CLEAN IN PLACE TRIGGER - Transition to Pre-Filter Flush Clean State - IF Cleaning In-Place Cycle Trigger Mode Is Set To TIME,INFO
+2024003,4041.0,un0000000000002202,2025-01-24 11:14:50,False,4,AUTOMATIC TRANSITION - Production State,INFO
+2024003,,un0000000000002202,2025-01-25 10:31:46,False,4,Received the command for stopstate,INFO
+2024003,2000.0,un0000000000002202,2025-01-25 10:32:01,False,4,Received the command for initializationstate,INFO
+2024003,4043.0,un0000000000002202,2025-01-25 10:33:34,False,4,"MEMBRANE DIRECT INTEGRITY (DIT) TEST -  Complete DIT, If The Maximum Allowed Time Without A DIT Has Been Exceeded",INFO
+2024003,4054.0,un0000000000002202,2025-01-25 10:59:14,False,4,AUTOMATIC TRANSITION - Production State - Continue Potable Water Production,INFO
+2024003,,un0000000000002202,2025-01-26 06:28:20,False,4,Received the command for stopstate,INFO
+2024003,2000.0,un0000000000002202,2025-01-26 09:00:56,False,4,Received the command for initializationstate,INFO
+2024003,4041.0,un0000000000002202,2025-01-26 09:02:29,False,4,AUTOMATIC TRANSITION - Production State,INFO
+2024003,4043.0,un0000000000002202,2025-01-26 10:49:06,False,4,"MEMBRANE DIRECT INTEGRITY (DIT) TEST -  Complete DIT, If The Maximum Allowed Time Without A DIT Has Been Exceeded",INFO
+2024003,4043.0,un0000000000002202,2025-01-26 10:49:34,False,4,"MEMBRANE DIRECT INTEGRITY (DIT) TEST -  Complete DIT, If The Maximum Allowed Time Without A DIT Has Been Exceeded",INFO
+2024003,4027.0,un0000000000002202,2025-01-26 10:59:29,False,4,STOP Membrane Direct Integrity Test Feed Pressurization - Transition To Wait State If DIT Target Test Hold Pressure Could Not Be Reached,INFO
+2024003,4027.0,un0000000000002202,2025-01-26 10:59:29,False,4,STOP Membrane Direct Integrity Test Feed Pressurization - Transition To Wait State If DIT Target Test Hold Pressure Could Not Be Reached,INFO
+2024003,4033.0,un0000000000002202,2025-01-26 11:00:43,False,4,GENERAL SYSTEM - FILL Membrane Feed & Filtrate Sides With Water,INFO
+2024003,4046.0,un0000000000002202,2025-01-26 11:12:18,False,4,MEMBRANE DIRECT INTEGRITY (DIT) TEST - RETURN To Membrane Direct Integrity Testing (DIT) If LAST DIT Was Interrupted/Was Not Completed In Its Entirety,INFO
+2024003,4027.0,un0000000000002202,2025-01-26 11:23:13,False,4,STOP Membrane Direct Integrity Test Feed Pressurization - Transition To Wait State If DIT Target Test Hold Pressure Could Not Be Reached,INFO
+2024003,4027.0,un0000000000002202,2025-01-26 11:23:13,False,4,STOP Membrane Direct Integrity Test Feed Pressurization - Transition To Wait State If DIT Target Test Hold Pressure Could Not Be Reached,INFO
+2024003,4033.0,un0000000000002202,2025-01-26 11:24:24,False,4,GENERAL SYSTEM - FILL Membrane Feed & Filtrate Sides With Water,INFO
+2024003,4046.0,un0000000000002202,2025-01-26 11:35:19,False,4,MEMBRANE DIRECT INTEGRITY (DIT) TEST - RETURN To Membrane Direct Integrity Testing (DIT) If LAST DIT Was Interrupted/Was Not Completed In Its Entirety,INFO
+2024003,4041.0,un0000000000002202,2025-01-26 12:00:41,False,4,AUTOMATIC TRANSITION - Production State,INFO
+2024003,,un0000000000002202,2025-01-26 21:00:47,False,4,Received the command for stopstate,INFO
+2024003,2000.0,un0000000000002202,2025-01-27 09:00:53,False,4,Received the command for initializationstate,INFO
+2024003,4041.0,un0000000000002202,2025-01-27 09:02:25,False,4,AUTOMATIC TRANSITION - Production State,INFO
+2024003,4043.0,un0000000000002202,2025-01-27 11:50:38,False,4,"MEMBRANE DIRECT INTEGRITY (DIT) TEST -  Complete DIT, If The Maximum Allowed Time Without A DIT Has Been Exceeded",INFO
+2024003,4043.0,un0000000000002202,2025-01-27 11:51:07,False,4,"MEMBRANE DIRECT INTEGRITY (DIT) TEST -  Complete DIT, If The Maximum Allowed Time Without A DIT Has Been Exceeded",INFO
+2024003,4041.0,un0000000000002202,2025-01-27 12:16:48,False,4,AUTOMATIC TRANSITION - Production State,INFO
+2024003,,un0000000000002202,2025-01-27 21:00:46,False,4,Received the command for stopstate,INFO
+2024003,2000.0,un0000000000002202,2025-01-28 09:00:56,False,4,Received the command for initializationstate,INFO
+2024003,4041.0,un0000000000002202,2025-01-28 09:02:28,False,4,AUTOMATIC TRANSITION - Production State,INFO
+2024003,4043.0,un0000000000002202,2025-01-28 12:06:12,False,4,"MEMBRANE DIRECT INTEGRITY (DIT) TEST -  Complete DIT, If The Maximum Allowed Time Without A DIT Has Been Exceeded",INFO
+2024003,4043.0,un0000000000002202,2025-01-28 12:06:41,False,4,"MEMBRANE DIRECT INTEGRITY (DIT) TEST -  Complete DIT, If The Maximum Allowed Time Without A DIT Has Been Exceeded",INFO
+2024003,4027.0,un0000000000002202,2025-01-28 12:15:48,False,4,STOP Membrane Direct Integrity Test Feed Pressurization - Transition To Wait State If DIT Target Test Hold Pressure Could Not Be Reached,INFO
+2024003,4027.0,un0000000000002202,2025-01-28 12:15:48,False,4,STOP Membrane Direct Integrity Test Feed Pressurization - Transition To Wait State If DIT Target Test Hold Pressure Could Not Be Reached,INFO
+2024003,4033.0,un0000000000002202,2025-01-28 12:17:01,False,4,GENERAL SYSTEM - FILL Membrane Feed & Filtrate Sides With Water,INFO
+2024003,4023.0,un0000000000002202,2025-01-28 12:36:01,False,4,STOP Membrane Refill - If Poison Timer Has Ended - Transition to Tag Out State,INFO
+2024003,,un0000000000002202,2025-01-29 00:03:50,False,4,Received the command for stopstate,INFO
+2024003,2000.0,un0000000000002202,2025-01-29 02:18:36,False,4,Received the command for initializationstate,INFO
+2024003,4033.0,un0000000000002202,2025-01-29 02:20:08,False,4,GENERAL SYSTEM - FILL Membrane Feed & Filtrate Sides With Water,INFO
+2024003,4046.0,un0000000000002202,2025-01-29 02:34:20,False,4,MEMBRANE DIRECT INTEGRITY (DIT) TEST - RETURN To Membrane Direct Integrity Testing (DIT) If LAST DIT Was Interrupted/Was Not Completed In Its Entirety,INFO
+2024003,4041.0,un0000000000002202,2025-01-29 03:00:00,False,4,AUTOMATIC TRANSITION - Production State,INFO
+2024003,2000.0,un0000000000002202,2025-01-29 09:00:58,False,4,Received the command for initializationstate,INFO
+2024003,4041.0,un0000000000002202,2025-01-29 09:03:15,False,4,AUTOMATIC TRANSITION - Production State,INFO

@@ -1,0 +1,106 @@
+﻿Sequence Name,State ID,State Type
+System Used - Pre-Allocated,2035,System Management
+System Used - Pre-Allocated,2050,System Management
+System Used - Pre-Allocated,2051,System Management
+All Sequences,9999,System Management
+System Initialization,2000,System Management
+System Health Check,2037,System Management
+Wait,2021,System Management
+System Tag Out,2020,System Management
+System Sleep,2076,System Management
+System Stop,0,System Management
+Servicing,2058,System Management
+Manufacturing,2059,System Management
+Production,2002,Water Production
+UV Irradiation Lamp Warm Up,2001,Water Production
+Clean-In-Place Water Tank Fill,2004,Water Production
+Potable Water Production - Volume Mode,2003,Water Production
+Potable Water Production - Time Mode,2025,Water Production
+Input Tank Drain,2005,Cleaning & Disinfection
+Clean-In-Place Water Tank Drain,2006,Cleaning & Disinfection
+Pre-Filter Drain,2007,Cleaning & Disinfection
+Membrane Drain,2034,Cleaning & Disinfection
+Membrane Refill,2046,Cleaning & Disinfection
+Pre-Filter Flush Clean Initialization,2008,Cleaning & Disinfection
+Pre-Filter 1 Flush Clean,2009,Cleaning & Disinfection
+Pre-Filter 2 Flush Clean,2010,Cleaning & Disinfection
+Pre-Filter 3 Flush Clean,2011,Cleaning & Disinfection
+Pre-Filter Post Clean Permeability Test,2045,Cleaning & Disinfection
+System Maintenance Clean Initialization,2012,Cleaning & Disinfection
+Pre-Filter Chemical Dose Soak,2013,Cleaning & Disinfection
+Pre-Filter Chemical Rinse,2041,Cleaning & Disinfection
+UV Irradiation Chamber Chemical Dose Soak,2014,Cleaning & Disinfection
+UV Irradiation Chamber Chemical Rinse,2042,Cleaning & Disinfection
+Clean-In-Place Water Tank Chemical Dose Soak,2040,Cleaning & Disinfection
+Clean-In-Place Water Tank Chemical Rinse,2043,Cleaning & Disinfection
+Membrane Air Scour Initialization,2015,Cleaning & Disinfection
+Membrane Backwash Pre Air Scour,2032,Cleaning & Disinfection
+Membrane Air Scour,2016,Cleaning & Disinfection
+Membrane Air Scour Feed Drain,2017,Cleaning & Disinfection
+Membrane Air Scour Feed Refill,2018,Cleaning & Disinfection
+Membrane Feed Refill Post Air Scour,2019,Cleaning & Disinfection
+Membrane Maintenance Clean Initialization,2027,Cleaning & Disinfection
+Membrane Air Scour Pre/Post Maintenance Clean,2028,Cleaning & Disinfection
+Membrane Air Scour Feed Drain Pre Maintenance Clean,2029,Cleaning & Disinfection
+Membrane Chemical Dose and Soak,2030,Cleaning & Disinfection
+Membrane Air Scour and Chemical Drain,2031,Cleaning & Disinfection
+Membrane Chemical Rinse,2033,Cleaning & Disinfection
+Sample Water Port Maintenance Clean,,Cleaning & Disinfection
+Membrane Direct Integrity Test Initialization,2022,In-Field Self Test
+Membrane Direct Integrity Test - Feed Side Pressurization,2036,In-Field Self Test
+Membrane Direct Integrity Test-  Filtrate Side Pressurization,2023,In-Field Self Test
+Membrane Refill Post Direct Integrity Test,2024,In-Field Self Test
+Membrane Post Clean Permeability Test,2026,In-Field Self Test
+Membrane Preservative Drain,2038,Commissioning
+Membrane Clean Water Flux Profile Test,2039,Commissioning
+Membrane Re-Wetting,2044,Commissioning
+Water Pump Priming,2047,Commissioning
+Chemical Pump Priming,2048,Commissioning
+Carbon Filter Flush & Start-Up Test,2049,Commissioning
+Pre-Filter 1 Replacement Start-Up Test,2074,Commissioning
+Pre-Filter 2 Replacement Start-Up Test,2075,Commissioning
+Pre-Filter 3 Replacement Start-Up Test,2052,Commissioning
+UV Lamp Replacement Start-Up Test,2053,Commissioning
+System Line & Housing Flush Clean,2054,Manufacturing
+System Line & Housing Flush To Drain - Pre-Pump,2055,Manufacturing
+System Line & Housing Flush To Drain - Post-Pump,2056,Manufacturing
+System Line & Housing Flush To Drain - Post-Membrane,2057,Manufacturing
+System Line & Housing Flush To Drain - Clean-In-Place Water,2060,Manufacturing
+System Line & Housing Disinfection,2061,Manufacturing
+System Line & Housing Chemical Dose Soak,2062,Manufacturing
+System Line & Housing Chemical Rinse,2063,Manufacturing
+System Piping and Fitting Leak Test,2064,Manufacturing
+Electronic Valve Cycling FAT,2065,Manufacturing
+Air Scour Pump FAT,2066,Manufacturing
+Water Pump FAT,2067,Manufacturing
+Chemical Dosing Pump FAT,2068,Manufacturing
+Direct Integrity Test Pump FAT,2069,Manufacturing
+Ultraviolet Irradiation System FAT,2070,Manufacturing
+Sensor Measurement FAT,2071,Manufacturing
+System Factory Acceptance Test,2072,Manufacturing
+Input Water Tank Pressurized Clean,2073,In-Field Servicing
+,2077,In-Field Servicing
+,2078,In-Field Servicing
+,2079,
+,2080,
+,2081,
+,2082,
+,2083,
+,2084,
+,2085,
+,2086,
+,2087,
+,2088,
+,2089,
+,2090,
+,2091,
+,2092,
+,2093,
+,2094,
+,2095,
+,2096,
+,2097,
+,2098,
+,2099,
+,2100,
+,2101,

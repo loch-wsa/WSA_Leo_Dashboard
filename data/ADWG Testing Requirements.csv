@@ -1,0 +1,66 @@
+﻿Category,Parameter,Unit,Classification
+Microbial Quality,Total Coliforms,CFU/100 mL,Must Have
+Microbial Quality,E. coli,CFU/100 mL,Must Have
+Microbial Quality,Campylobacter,CFU/100 mL,Conditional
+Microbial Quality,Salmonella,CFU/100 mL,Conditional
+Microbial Quality,Pathogenic E. coli,CFU/100 mL,Conditional
+Microbial Quality,Shigella,CFU/100 mL,Conditional
+Microbial Quality,Adenoviruses,PFU/L,Conditional
+Microbial Quality,Enteroviruses,PFU/L,Conditional
+Microbial Quality,Norovirus,PFU/L,Conditional
+Microbial Quality,Rotavirus,PFU/L,Conditional
+Microbial Quality,Hepatitis A Virus,PFU/L,Conditional
+Microbial Quality,Cryptosporidium,Oocysts/L,Must Have
+Microbial Quality,Giardia,Cysts/L,Must Have
+Microbial Quality,CyclospoTurbra,Oocysts/L,Conditional
+Physical Quality,Turbidity,NTU,Must Have
+Physical Quality,True Colour,Hazen units,Must Have
+Physical Quality,Temperature,°C,Must Have
+Physical Quality,Total Dissolved Solids (TDS),mg/L,Must Have
+Physical Quality,pH,pH units,Must Have
+Physical Quality,Conductivity,µS/cm,Must Have
+Chemical Quality,Arsenic,µg/L,Conditional
+Chemical Quality,Cadmium,µg/L,Conditional
+Chemical Quality,Chromium,µg/L,Conditional
+Chemical Quality,Copper,mg/L,Conditional
+Chemical Quality,Lead,µg/L,Must Have
+Chemical Quality,Mercury,µg/L,Conditional
+Chemical Quality,Nickel,µg/L,Conditional
+Chemical Quality,Nitrate,mg/L,Must Have
+Chemical Quality,Nitrite,mg/L,Must Have
+Chemical Quality,Selenium,µg/L,Conditional
+Chemical Quality,Zinc,mg/L,Conditional
+Chemical Quality,Iron,mg/L,Must Have
+Chemical Quality,Manganese,mg/L,Must Have
+Chemical Quality,Fluoride,mg/L,Must Have
+Chemical Quality,Chloride,mg/L,Must Have
+Chemical Quality,Sulphate,mg/L,Must Have
+Chemical Quality,Cyanide,µg/L,Conditional
+Chemical Quality,Trihalomethanes (THMs),µg/L,Must Have
+Chemical Quality,Haloacetic Acids (HAAs),µg/L,Conditional
+Chemical Quality,"Pesticides (e.g., Atrazine)",µg/L,Conditional
+Chemical Quality,Herbicides,µg/L,Conditional
+Chemical Quality,Disinfection By-products (DBPs),µg/L,Must Have
+Chemical Quality,Phenols,µg/L,Conditional
+Chemical Quality,Polycyclic Aromatic Hydrocarbons (PAHs),µg/L,Conditional
+Aesthetic Quality,Taste and Odour,Threshold units,Must Have
+Aesthetic Quality,Colour,Hazen units,Must Have
+Aesthetic Quality,Hardness,mg/L as CaCO₃,Must Have
+Additional Parameters,Dissolved Oxygen,mg/L,Must Have
+Additional Parameters,Alkalinity,mg/L as CaCO₃,Must Have
+Additional Parameters,Ammonia,mg/L,Must Have
+Additional Parameters,Phosphate,mg/L,Must Have
+Additional Parameters,Silica,mg/L,Conditional
+Opportunistic Pathogens,Aeromonas spp.,CFU/100 mL,Conditional
+Opportunistic Pathogens,Burkholderia pseudomallei,CFU/100 mL,Conditional
+Opportunistic Pathogens,Legionella spp.,CFU/100 mL,Conditional
+Opportunistic Pathogens,Mycobacteria,CFU/100 mL,Conditional
+Opportunistic Pathogens,Pseudomonas aeruginosa,CFU/100 mL,Conditional
+Opportunistic Pathogens,Naegleria Fowleri,CFU/100 mL,Conditional
+Opportunistic Pathogens,Acanthamoeba,CFU/100 mL,Conditional
+Cyanobacteria and Cyanotoxins,Cylindrospermopsin,µg/L,Conditional
+Cyanobacteria and Cyanotoxins,Microcystins,µg/L,Conditional
+Cyanobacteria and Cyanotoxins,Nodularin,µg/L,Conditional
+Cyanobacteria and Cyanotoxins,Saxitoxin,µg/L,Conditional
+Radiological Quality,Gross Alpha and Beta Activity,Bq/L,Conditional
+Radiological Quality,Radon,B,Conditional

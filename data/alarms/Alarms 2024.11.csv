@@ -1,0 +1,9 @@
+unitserialnumber,code,deviceId,timestamp,manual,type,message,alarm_type
+2024003,3117,un0000000000002202,2024-11-11 02:36:06,False,2,LowLow Threshold breached for UV Chamber Dosage - Ultraviolet Disinfection Chamber for uvm101_dose ,ERROR
+2024003,3117,un0000000000002202,2024-11-11 02:37:05,False,2,LowLow Threshold breached for UV Chamber Dosage - Ultraviolet Disinfection Chamber for uvm101_dose ,ERROR
+2024003,3146,un0000000000002202,2024-11-13 13:19:10,False,2,HighHigh Threshold breached for Fluid Turbidity - System Water Output for trb102_turbidity ,ERROR
+2024003,3146,un0000000000002202,2024-11-13 13:20:02,False,2,HighHigh Threshold breached for Fluid Turbidity - System Water Output for trb102_turbidity ,ERROR
+2024003,3146,un0000000000002202,2024-11-14 00:11:56,False,2,HighHigh Threshold breached for Fluid Turbidity - System Water Output for trb102_turbidity ,ERROR
+2024003,3146,un0000000000002202,2024-11-14 00:12:48,False,2,HighHigh Threshold breached for Fluid Turbidity - System Water Output for trb102_turbidity ,ERROR
+2024003,3146,un0000000000002202,2024-11-14 02:35:03,False,2,HighHigh Threshold breached for Fluid Turbidity - System Water Output for trb102_turbidity ,ERROR
+2024003,3146,un0000000000002202,2024-11-14 02:35:56,False,2,HighHigh Threshold breached for Fluid Turbidity - System Water Output for trb102_turbidity ,ERROR

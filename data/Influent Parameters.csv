@@ -1,0 +1,48 @@
+﻿ALS Lookup,Category,Parameter,Unit,Min,Max,Notes
+,Algae Toxins,Algae Toxins,µg/L,Varies By Compound,Varies By Compound,Pre-treatment required if above acceptable drinking water levels.
+,Inorganic Compound,Ammonia,mg/L,N/A,0.5,
+,Inorganic Compound,Boron,mg/L,N/A,4,
+,Inorganic Compound,Bromide,mg/L,N/A,0.1,
+W-CHLORIDE(DA),Inorganic Compound,Chloride,mg/L,N/A,250,
+,Inorganic Compound,Cyanide,mg/L,N/A,0.08,
+,Inorganic Compound,Fluoride,mg/L,N/A,1.5,
+,Inorganic Compound,Nitrate,mg/L,N/A,50,
+W-NO3-N,Inorganic Compound,Nitrite,mg/L,N/A,3,
+,Inorganic Compound,Phosphate,mg/L,No Specific Limit,No Specific Limit,
+SILICA,Inorganic Compound,Silica,mg/L,N/A,80,
+NA,Inorganic Compound,Sodium,mg/L,N/A,180,
+W-SO4-DA,Inorganic Compound,Sulphate,mg/L,N/A,250,
+,Metal,Antimony,mg/L,N/A,0.003,
+AS,Metal,Arsenic,mg/L,N/A,0.01,
+,Metal,Barium,mg/L,N/A,2,
+,Metal,Beryllium,mg/L,N/A,0.06,
+,Metal,Cadmium,mg/L,N/A,0.002,
+,Metal,Chromium,mg/L,N/A,0.05,
+,Metal,Copper,mg/L,N/A,2,
+FE,Metal,Iron,mg/L,N/A,0.3,
+PB,Metal,Lead,mg/L,N/A,0.01,
+MN,Metal,Manganese,mg/L,N/A,0.1,
+HG,Metal,Mercury,mg/L,N/A,0.001,
+,Metal,Nickel,mg/L,N/A,0.02,
+,Metal,Selenium,mg/L,N/A,0.01,
+,Metal,Zinc,mg/L,N/A,3,
+,Microbial,Cryptosporidium,oocysts/L,Not Present,Not Present,Tested in areas with known contamination risks.
+E COLI(C),Microbial,E. coli,CFU/100 mL,0,0,"Indicator of fecal contamination, critical for health safety."
+,Microbial,Enterococci,CFU/100 mL,0,0,
+,Microbial,Giardia,cysts/L,Not Present,Not Present,Tested in areas with known contamination risks.
+COLIFORM (C),Microbial,Total Coliforms,CFU/100 mL,0,0,"Indicator of fecal contamination, critical for health safety."
+PLATE COUNT 36 C,Microbial,Total Plate Count,CFU/mL,No Specific Limit,No Specific Limit,
+,Microbial,Viruses,PFU/L,Not Present,Not Present,
+TOC,Organic Compound,Total Organic Carbon (TOC),mg/L,N/A,15,Hydranautics Hydracap Max 40
+TRUE COLOUR,Physical,Colour (True),HU,N/A,15,Reduction of colour is not within the treatment intent of the system
+EC,Physical,Conductivity,μS/cm,N/A,800,
+,Physical,Hardness (as CaCO3),mg/L,N/A,200,Reduction of hardness is not within the treatment intent of the system
+PH,Physical,pH,pH Units,6.5,8.5,Adjustment of pH is not within the treatment intent of the system
+,Physical,Taste and Odor,N/A,N/A,Not Offensive To Most People,Reduction of taste and odor is not within the treatment intent of the system
+TDS_180,Physical,Total Dissolved Solids (TDS),mg/L,N/A,600,Reduction of TDS is not within the treatment intent of the system
+SUS SOLIDS,Physical,Total Suspended Solids (TSS),mg/L,N/A,600,Hydranautics Hydracap Max 40
+TURBIDITY,Physical,Turbidity,NTU,0,300,Hydranautics Hydracap Max 40
+UV TRANS,Physical,UV Transmittance (UVT),%,50,100,UV System Hallett 1000P
+,Physical,Water Temperature,°C,5,40,Hydranautics Hydracap Max 40
+,Radiological,Radiological Compounds,Bq/L,Varies By Compound,Varies By Compound,Pre-treatment required if above acceptable drinking water levels.
+,Dysenfection Bi-Products,Dysenfection Bi-Products,mg/L,Varies By Compound,Varies By Compound,

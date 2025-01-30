@@ -1,0 +1,98 @@
+﻿Sensor,Name,Unit
+PPF101_STATE,Main Water Pump State,Binary (On/Off)
+PPF101_SPEED,Main Water Pump Speed,Hz
+PPF101_SPEEDPERCENTAGE,Main Water Pump Speed Percentage,%
+PPA101_STATE,Air Scour Pump State,Binary (On/Off)
+PPA102_SPEED,Integrity Test Pump Speed,%
+PPA102_STATE,Integrity Test Pump State,Binary (On/Off)
+PPC101_DIRECTION,Chemical Pump Direction,Binary (CW/CCW)
+PPC101_STATE,Chemical Pump State,Binary (On/Off)
+PPC101_RPM,Chemical Pump Speed,rpm
+TNK101_VOLUME,Input Tank Water Volume,liters
+TNK102_VOLUME,Backwash Tank Water Volume,liters
+TNK104_VOLUME,Chlorine Tank Volume,liters
+VBL101_POSITION,System Input Valve Position,Binary (Open/Closed)
+VBL102_POSITION,Pre-Filter 1 Drain Position,Binary (Open/Closed)
+VBL105_POSITION,Pre-Filter 2 Drain Position,Binary (Open/Closed)
+VBL106_POSITION,Pre-Filter 3 Drain Position,Binary (Open/Closed)
+VBL107_POSITION,Membrane Drain Position,Binary (Open/Closed)
+VBL108_POSITION,Membrane Feed Position,Binary (Open/Closed)
+VBL109_POSITION,Membrane Top Output Position,Binary (Open/Closed)
+VBL110_POSITION,Membrane Feed Drain Position,Binary (Open/Closed)
+VBL111_POSITION,Membrane Filtrate Drain Position,Binary (Open/Closed)
+VBL112_POSITION,Membrane Output Position,Binary (Open/Closed)
+VBL113_POSITION,UV Chamber Input Position,Binary (Open/Closed)
+VBL114_POSITION,Backwash Output Position,Binary (Open/Closed)
+VBL115_POSITION,Output Drain Position,Binary (Open/Closed)
+VBL116_POSITION,System Output Position,Binary (Open/Closed)
+VBL118_POSITION,Input Tank Output Position,Binary (Open/Closed)
+VBL119_POSITION,Backwash Input Position,Binary (Open/Closed)
+VBL120_POSITION,Input Tank Drain Position,Binary (Open/Closed)
+FLM101_PRESSUREDIFF,Pre-Filter 1 Pressure Drop,bar
+FLM102_PRESSUREDIFF,Pre-Filter 2 Pressure Drop,bar
+FLM103_PRESSUREDIFF,Pre-Filter 3 Pressure Drop,bar
+FLM105_PRESSUREDIFF,Carbon Filter Pressure Drop,bar
+FLU101_FILTRATEFLUX,Membrane Filtrate Flux,lmh
+FLU101_TMP,Membrane Trans-membrane Pressure,bar
+FLU101_SPECIFICFLUX,Membrane Specific Flux,lmh/bar
+FLU101_TCF,Membrane Temperature Correction Factor,N/A
+FLU101_TCSF,Membrane Temp Corrected Specific Flux,lmh/bar
+PTC101_PRESSUREABSOLUTERAW,Input Pressure Raw,µA
+PTC101_PRESSUREABSOLUTE,Input Pressure Absolute,bar
+PTC101_PRESSURE,Input Pressure Gauge,bar
+PTC102_PRESSUREABSOLUTERAW,Pump Output Pressure Raw,µA
+PTC102_PRESSUREABSOLUTE,Pump Output Pressure Absolute,bar
+PTC102_PRESSURE,Pump Output Pressure Gauge,bar
+PTC103_PRESSURERAW,Input Tank Pressure Raw,µA
+PTC103_PRESSURE,Input Tank Pressure,bar
+PTC104_PRESSUREABSOLUTERAW,Pre-Filter 2 Output Pressure Raw,µA
+PTC104_PRESSUREABSOLUTE,Pre-Filter 2 Output Pressure Absolute,bar
+PTC104_PRESSURE,Pre-Filter 2 Output Pressure Gauge,bar
+PTC106_PRESSURERAW,Backwash Tank Pressure Raw,µA
+PTC106_PRESSURE,Backwash Tank Pressure,bar
+PTC107_PRESSUREABSOLUTERAW,Membrane Feed Pressure Raw,µA
+PTC107_PRESSUREABSOLUTE,Membrane Feed Pressure Absolute,bar
+PTC107_PRESSURE,Membrane Feed Pressure Gauge,bar
+PTC109_PRESSURERAW,Atmospheric Pressure Raw,µA
+PTC109_PRESSURE,Atmospheric Pressure,bar
+PTC110_PRESSUREABSOLUTERAW,Membrane Output Pressure Raw,µA
+PTC110_PRESSUREABSOLUTE,Membrane Output Pressure Absolute,bar
+PTC110_PRESSURE,Membrane Output Pressure Gauge,bar
+PTC111_PRESSUREABSOLUTERAW,System Output Pressure Raw,µA
+PTC111_PRESSUREABSOLUTE,System Output Pressure Absolute,bar
+PTC111_PRESSURE,System Output Pressure Gauge,bar
+PTC112_PRESSUREABSOLUTERAW,Air Scour Pressure Raw,µA
+PTC112_PRESSUREABSOLUTE,Air Scour Pressure Absolute,bar
+PTC112_PRESSURE,Air Scour Pressure Gauge,bar
+PTC113_PRESSUREABSOLUTERAW,Pre-Filter 1 Output Pressure Raw,µA
+PTC113_PRESSUREABSOLUTE,Pre-Filter 1 Output Pressure Absolute,bar
+PTC113_PRESSURE,Pre-Filter 1 Output Pressure Gauge,bar
+FTR102_FLOWRATERAW,Pump Flow Rate Raw,mHz
+FTR102_FLOWRATE,Pump Flow Rate,l/min
+FTR103_FLOWRATERAW,Output Flow Rate Raw,mHz
+FTR103_FLOWRATE,Output Flow Rate,l/min
+CTR101_CONDUCTIVITYRAW,Input Conductivity Raw,Data
+CTR101_CONDUCTIVITY,Input Conductivity,µs/cm
+CTR101_TEMPERATURERAW,Input Water Temperature Raw,Data
+CTR101_TEMPERATURE,Input Water Temperature,°C
+CTR101_TDSRAW,Input TDS Raw,Data
+CTR101_TDS,Input Total Dissolved Solids,mg/L
+TRB101_TURBIDITYRAW,Input Turbidity Raw,Data
+TRB101_TURBIDITY,Input Turbidity,NTU
+TRB101_TEMPERATURERAW,Input Turbidity Temp Raw,Data
+TRB101_TEMPERATURE,Input Turbidity Temperature,°C
+TRB102_TURBIDITYRAW,Output Turbidity Raw,Data
+TRB102_TURBIDITY,Output Turbidity,NTU
+TRB102_TEMPERATURERAW,Output Turbidity Temp Raw,Data
+TRB102_TEMPERATURE,Output Turbidity Temperature,°C
+UVM101_STATE,UV Lamp State,Binary (On/Off)
+UVM101_DOSE,UV Dosage,mJ/cm2
+UVI101_INTENSITYRAW,UV Intensity Raw,Data
+UVI101_INTENSITY,UV Intensity,mW/cm²
+TTR101_TEMPERATURERAW,Enclosure Temperature Raw,µA
+TTR101_TEMPERATURE,Enclosure Temperature,°C
+LCL101_WEIGHT,Chlorine Tank Weight,grams
+DSW101_POSITION,Door Position,Binary (Open/Closed)
+LSW101_POSITION,Sump Level,Binary (High/Low)
+ACP101_POWER,System Power Consumption,Watts
+VSD101_STATE,Pump Speed Controller State,Binary (On/Off)

@@ -1,0 +1,8 @@
+unitserialnumber,code,deviceId,timestamp,manual,type,message,alarm_type
+2024003,4061.0,un0000000000002202,2024-09-30 14:27:23,False,4,CLEAN IN PLACE TRIGGER - Transition to Membrane Air Scour State - IF Cleaning In-Place Cycle Trigger Mode Is Set To TIME,INFO
+2024003,4037.0,un0000000000002202,2024-09-30 14:39:54,False,4,"MEMBRANE CLEANING - TEST Membrane Flux Profile, Post Membrane Air Scouring And/Or Membrane Maintenance Clean",INFO
+2024003,4050.0,un0000000000002202,2024-09-30 14:44:31,False,4,STOP Membrane Flux Profile Test - Test PASSED,INFO
+2024003,4054.0,un0000000000002202,2024-09-30 14:45:41,False,4,AUTOMATIC TRANSITION - Production State - Continue Potable Water Production,INFO
+2024003,4062.0,un0000000000002202,2024-09-30 15:02:37,False,4,CLEAN IN PLACE TRIGGER - Transition to Pre-Filter Flush Clean State - IF Cleaning In-Place Cycle Trigger Mode Is Set To TIME,INFO
+2024003,2000.0,un0000000000002202,2024-09-30 21:54:48,False,4,Received the command for initializationstate,INFO
+2024003,4041.0,un0000000000002202,2024-09-30 21:56:13,False,4,AUTOMATIC TRANSITION - Production State,INFO

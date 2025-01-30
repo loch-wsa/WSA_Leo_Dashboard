@@ -1,0 +1,419 @@
+unitserialnumber,code,deviceId,timestamp,manual,type,message,alarm_type
+2024003,2000.0,un0000000000002202,2024-11-01 00:00:31,False,4,Received the command for initializationstate,INFO
+2024003,4033.0,un0000000000002202,2024-11-01 00:01:57,False,4,GENERAL SYSTEM - FILL Membrane Feed & Filtrate Sides With Water,INFO
+2024003,4035.0,un0000000000002202,2024-11-01 00:13:16,False,4,MEMBRANE MAINTENANCE CLEAN - RINSE Membrane If It Is CHLORINATED OR EXECUTE Another Clean Cycle If LAST Membrane Maintenance Clean Was Interrupted/Was Not Completed In Its Entirety,INFO
+2024003,4028.0,un0000000000002202,2024-11-01 00:14:27,False,4,CHECK - FILL Clean-In-Place (CIP) Water Tank With Treated Water - If Insufficient Volume Of Water Stored In The Clean-In-Place (CIP) Water Tank For Current Sequence,INFO
+2024003,4034.0,un0000000000002202,2024-11-01 00:15:37,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4035.0,un0000000000002202,2024-11-01 00:31:40,False,4,MEMBRANE MAINTENANCE CLEAN - RINSE Membrane If It Is CHLORINATED OR EXECUTE Another Clean Cycle If LAST Membrane Maintenance Clean Was Interrupted/Was Not Completed In Its Entirety,INFO
+2024003,4016.0,un0000000000002202,2024-11-01 01:03:07,False,4,STOP Chemical Dosing and Soaking - If Poison Timer Has Ended - Transition to Tag Out State,INFO
+2024003,,un0000000000002202,2024-11-01 21:00:03,False,4,Received the command for stopstate,INFO
+2024003,2000.0,un0000000000002202,2024-11-02 00:00:33,False,4,Received the command for initializationstate,INFO
+2024003,4033.0,un0000000000002202,2024-11-02 00:01:59,False,4,GENERAL SYSTEM - FILL Membrane Feed & Filtrate Sides With Water,INFO
+2024003,4035.0,un0000000000002202,2024-11-02 00:15:35,False,4,MEMBRANE MAINTENANCE CLEAN - RINSE Membrane If It Is CHLORINATED OR EXECUTE Another Clean Cycle If LAST Membrane Maintenance Clean Was Interrupted/Was Not Completed In Its Entirety,INFO
+2024003,4028.0,un0000000000002202,2024-11-02 00:16:47,False,4,CHECK - FILL Clean-In-Place (CIP) Water Tank With Treated Water - If Insufficient Volume Of Water Stored In The Clean-In-Place (CIP) Water Tank For Current Sequence,INFO
+2024003,4034.0,un0000000000002202,2024-11-02 00:17:58,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4035.0,un0000000000002202,2024-11-02 00:34:08,False,4,MEMBRANE MAINTENANCE CLEAN - RINSE Membrane If It Is CHLORINATED OR EXECUTE Another Clean Cycle If LAST Membrane Maintenance Clean Was Interrupted/Was Not Completed In Its Entirety,INFO
+2024003,4016.0,un0000000000002202,2024-11-02 01:05:38,False,4,STOP Chemical Dosing and Soaking - If Poison Timer Has Ended - Transition to Tag Out State,INFO
+2024003,,un0000000000002202,2024-11-02 21:00:08,False,4,Received the command for stopstate,INFO
+2024003,2000.0,un0000000000002202,2024-11-03 00:00:32,False,4,Received the command for initializationstate,INFO
+2024003,4033.0,un0000000000002202,2024-11-03 00:01:58,False,4,GENERAL SYSTEM - FILL Membrane Feed & Filtrate Sides With Water,INFO
+2024003,4035.0,un0000000000002202,2024-11-03 00:15:35,False,4,MEMBRANE MAINTENANCE CLEAN - RINSE Membrane If It Is CHLORINATED OR EXECUTE Another Clean Cycle If LAST Membrane Maintenance Clean Was Interrupted/Was Not Completed In Its Entirety,INFO
+2024003,4028.0,un0000000000002202,2024-11-03 00:16:49,False,4,CHECK - FILL Clean-In-Place (CIP) Water Tank With Treated Water - If Insufficient Volume Of Water Stored In The Clean-In-Place (CIP) Water Tank For Current Sequence,INFO
+2024003,4034.0,un0000000000002202,2024-11-03 00:18:01,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4035.0,un0000000000002202,2024-11-03 00:34:21,False,4,MEMBRANE MAINTENANCE CLEAN - RINSE Membrane If It Is CHLORINATED OR EXECUTE Another Clean Cycle If LAST Membrane Maintenance Clean Was Interrupted/Was Not Completed In Its Entirety,INFO
+2024003,4016.0,un0000000000002202,2024-11-03 01:05:44,False,4,STOP Chemical Dosing and Soaking - If Poison Timer Has Ended - Transition to Tag Out State,INFO
+2024003,,un0000000000002202,2024-11-03 21:00:07,False,4,Received the command for stopstate,INFO
+2024003,2000.0,un0000000000002202,2024-11-04 00:00:28,False,4,Received the command for initializationstate,INFO
+2024003,4033.0,un0000000000002202,2024-11-04 00:01:55,False,4,GENERAL SYSTEM - FILL Membrane Feed & Filtrate Sides With Water,INFO
+2024003,4035.0,un0000000000002202,2024-11-04 00:14:06,False,4,MEMBRANE MAINTENANCE CLEAN - RINSE Membrane If It Is CHLORINATED OR EXECUTE Another Clean Cycle If LAST Membrane Maintenance Clean Was Interrupted/Was Not Completed In Its Entirety,INFO
+2024003,4028.0,un0000000000002202,2024-11-04 00:15:18,False,4,CHECK - FILL Clean-In-Place (CIP) Water Tank With Treated Water - If Insufficient Volume Of Water Stored In The Clean-In-Place (CIP) Water Tank For Current Sequence,INFO
+2024003,4034.0,un0000000000002202,2024-11-04 00:16:30,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4035.0,un0000000000002202,2024-11-04 00:32:46,False,4,MEMBRANE MAINTENANCE CLEAN - RINSE Membrane If It Is CHLORINATED OR EXECUTE Another Clean Cycle If LAST Membrane Maintenance Clean Was Interrupted/Was Not Completed In Its Entirety,INFO
+2024003,4016.0,un0000000000002202,2024-11-04 01:04:11,False,4,STOP Chemical Dosing and Soaking - If Poison Timer Has Ended - Transition to Tag Out State,INFO
+2024003,,un0000000000002202,2024-11-04 21:00:08,False,4,Received the command for stopstate,INFO
+2024003,2000.0,un0000000000002202,2024-11-05 00:00:30,False,4,Received the command for initializationstate,INFO
+2024003,4033.0,un0000000000002202,2024-11-05 00:01:57,False,4,GENERAL SYSTEM - FILL Membrane Feed & Filtrate Sides With Water,INFO
+2024003,4035.0,un0000000000002202,2024-11-05 00:13:57,False,4,MEMBRANE MAINTENANCE CLEAN - RINSE Membrane If It Is CHLORINATED OR EXECUTE Another Clean Cycle If LAST Membrane Maintenance Clean Was Interrupted/Was Not Completed In Its Entirety,INFO
+2024003,4028.0,un0000000000002202,2024-11-05 00:15:09,False,4,CHECK - FILL Clean-In-Place (CIP) Water Tank With Treated Water - If Insufficient Volume Of Water Stored In The Clean-In-Place (CIP) Water Tank For Current Sequence,INFO
+2024003,4034.0,un0000000000002202,2024-11-05 00:16:22,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4035.0,un0000000000002202,2024-11-05 00:32:33,False,4,MEMBRANE MAINTENANCE CLEAN - RINSE Membrane If It Is CHLORINATED OR EXECUTE Another Clean Cycle If LAST Membrane Maintenance Clean Was Interrupted/Was Not Completed In Its Entirety,INFO
+2024003,4016.0,un0000000000002202,2024-11-05 01:03:53,False,4,STOP Chemical Dosing and Soaking - If Poison Timer Has Ended - Transition to Tag Out State,INFO
+2024003,,un0000000000002202,2024-11-05 21:00:08,False,4,Received the command for stopstate,INFO
+2024003,4033.0,un0000000000002202,2024-11-06 00:19:27,False,4,GENERAL SYSTEM - FILL Membrane Feed & Filtrate Sides With Water,INFO
+2024003,4043.0,un0000000000002202,2024-11-06 00:33:05,False,4,"MEMBRANE DIRECT INTEGRITY (DIT) TEST -  Complete DIT, If The Maximum Allowed Time Without A DIT Has Been Exceeded",INFO
+2024003,4054.0,un0000000000002202,2024-11-06 00:53:27,False,4,AUTOMATIC TRANSITION - Production State - Continue Potable Water Production,INFO
+2024003,4062.0,un0000000000002202,2024-11-06 01:09:26,False,4,CLEAN IN PLACE TRIGGER - Transition to Pre-Filter Flush Clean State - IF Cleaning In-Place Cycle Trigger Mode Is Set To TIME,INFO
+2024003,4041.0,un0000000000002202,2024-11-06 01:18:25,False,4,AUTOMATIC TRANSITION - Production State,INFO
+2024003,4061.0,un0000000000002202,2024-11-06 03:39:17,False,4,CLEAN IN PLACE TRIGGER - Transition to Membrane Air Scour State - IF Cleaning In-Place Cycle Trigger Mode Is Set To TIME,INFO
+2024003,4037.0,un0000000000002202,2024-11-06 03:52:22,False,4,"MEMBRANE CLEANING - TEST Membrane Flux Profile, Post Membrane Air Scouring And/Or Membrane Maintenance Clean",INFO
+2024003,4049.0,un0000000000002202,2024-11-06 04:02:21,False,4,STOP Membrane Flux Profile Test - Test FAILED,INFO
+2024003,4039.0,un0000000000002202,2024-11-06 04:03:32,False,4,"MEMBRANE MAINTENANCE CLEAN - If Membrane Flux Profile Test FAILED, TRANSITION To A Membrane Maintenace Clean, If Consecutive Membrane Air Scour Count Is Above Maximum Limit and Consecutive Membrane Maintenance Clean Count Is Below Maximum Limit",INFO
+2024003,4028.0,un0000000000002202,2024-11-06 04:04:45,False,4,CHECK - FILL Clean-In-Place (CIP) Water Tank With Treated Water - If Insufficient Volume Of Water Stored In The Clean-In-Place (CIP) Water Tank For Current Sequence,INFO
+2024003,4034.0,un0000000000002202,2024-11-06 04:05:58,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4035.0,un0000000000002202,2024-11-06 04:20:40,False,4,MEMBRANE MAINTENANCE CLEAN - RINSE Membrane If It Is CHLORINATED OR EXECUTE Another Clean Cycle If LAST Membrane Maintenance Clean Was Interrupted/Was Not Completed In Its Entirety,INFO
+2024003,4016.0,un0000000000002202,2024-11-06 04:52:06,False,4,STOP Chemical Dosing and Soaking - If Poison Timer Has Ended - Transition to Tag Out State,INFO
+2024003,,un0000000000002202,2024-11-06 21:00:08,False,4,Received the command for stopstate,INFO
+2024003,2000.0,un0000000000002202,2024-11-07 00:00:30,False,4,Received the command for initializationstate,INFO
+2024003,4033.0,un0000000000002202,2024-11-07 00:01:57,False,4,GENERAL SYSTEM - FILL Membrane Feed & Filtrate Sides With Water,INFO
+2024003,4035.0,un0000000000002202,2024-11-07 00:16:31,False,4,MEMBRANE MAINTENANCE CLEAN - RINSE Membrane If It Is CHLORINATED OR EXECUTE Another Clean Cycle If LAST Membrane Maintenance Clean Was Interrupted/Was Not Completed In Its Entirety,INFO
+2024003,4028.0,un0000000000002202,2024-11-07 00:17:44,False,4,CHECK - FILL Clean-In-Place (CIP) Water Tank With Treated Water - If Insufficient Volume Of Water Stored In The Clean-In-Place (CIP) Water Tank For Current Sequence,INFO
+2024003,4034.0,un0000000000002202,2024-11-07 00:18:57,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4035.0,un0000000000002202,2024-11-07 00:34:56,False,4,MEMBRANE MAINTENANCE CLEAN - RINSE Membrane If It Is CHLORINATED OR EXECUTE Another Clean Cycle If LAST Membrane Maintenance Clean Was Interrupted/Was Not Completed In Its Entirety,INFO
+2024003,4016.0,un0000000000002202,2024-11-07 01:06:05,False,4,STOP Chemical Dosing and Soaking - If Poison Timer Has Ended - Transition to Tag Out State,INFO
+2024003,,un0000000000002202,2024-11-07 21:00:04,False,4,Received the command for stopstate,INFO
+2024003,2000.0,un0000000000002202,2024-11-08 00:00:29,False,4,Received the command for initializationstate,INFO
+2024003,4033.0,un0000000000002202,2024-11-08 00:01:55,False,4,GENERAL SYSTEM - FILL Membrane Feed & Filtrate Sides With Water,INFO
+2024003,4035.0,un0000000000002202,2024-11-08 00:14:31,False,4,MEMBRANE MAINTENANCE CLEAN - RINSE Membrane If It Is CHLORINATED OR EXECUTE Another Clean Cycle If LAST Membrane Maintenance Clean Was Interrupted/Was Not Completed In Its Entirety,INFO
+2024003,4028.0,un0000000000002202,2024-11-08 00:15:50,False,4,CHECK - FILL Clean-In-Place (CIP) Water Tank With Treated Water - If Insufficient Volume Of Water Stored In The Clean-In-Place (CIP) Water Tank For Current Sequence,INFO
+2024003,4034.0,un0000000000002202,2024-11-08 00:17:03,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4035.0,un0000000000002202,2024-11-08 00:32:48,False,4,MEMBRANE MAINTENANCE CLEAN - RINSE Membrane If It Is CHLORINATED OR EXECUTE Another Clean Cycle If LAST Membrane Maintenance Clean Was Interrupted/Was Not Completed In Its Entirety,INFO
+2024003,4016.0,un0000000000002202,2024-11-08 01:04:02,False,4,STOP Chemical Dosing and Soaking - If Poison Timer Has Ended - Transition to Tag Out State,INFO
+2024003,,un0000000000002202,2024-11-08 21:00:04,False,4,Received the command for stopstate,INFO
+2024003,2000.0,un0000000000002202,2024-11-09 00:00:32,False,4,Received the command for initializationstate,INFO
+2024003,4033.0,un0000000000002202,2024-11-09 00:01:59,False,4,GENERAL SYSTEM - FILL Membrane Feed & Filtrate Sides With Water,INFO
+2024003,4035.0,un0000000000002202,2024-11-09 00:13:44,False,4,MEMBRANE MAINTENANCE CLEAN - RINSE Membrane If It Is CHLORINATED OR EXECUTE Another Clean Cycle If LAST Membrane Maintenance Clean Was Interrupted/Was Not Completed In Its Entirety,INFO
+2024003,4028.0,un0000000000002202,2024-11-09 00:14:56,False,4,CHECK - FILL Clean-In-Place (CIP) Water Tank With Treated Water - If Insufficient Volume Of Water Stored In The Clean-In-Place (CIP) Water Tank For Current Sequence,INFO
+2024003,4034.0,un0000000000002202,2024-11-09 00:16:08,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4035.0,un0000000000002202,2024-11-09 00:32:20,False,4,MEMBRANE MAINTENANCE CLEAN - RINSE Membrane If It Is CHLORINATED OR EXECUTE Another Clean Cycle If LAST Membrane Maintenance Clean Was Interrupted/Was Not Completed In Its Entirety,INFO
+2024003,4016.0,un0000000000002202,2024-11-09 01:03:39,False,4,STOP Chemical Dosing and Soaking - If Poison Timer Has Ended - Transition to Tag Out State,INFO
+2024003,,un0000000000002202,2024-11-09 21:00:05,False,4,Received the command for stopstate,INFO
+2024003,2000.0,un0000000000002202,2024-11-10 00:00:30,False,4,Received the command for initializationstate,INFO
+2024003,4033.0,un0000000000002202,2024-11-10 00:01:57,False,4,GENERAL SYSTEM - FILL Membrane Feed & Filtrate Sides With Water,INFO
+2024003,4035.0,un0000000000002202,2024-11-10 00:07:56,False,4,MEMBRANE MAINTENANCE CLEAN - RINSE Membrane If It Is CHLORINATED OR EXECUTE Another Clean Cycle If LAST Membrane Maintenance Clean Was Interrupted/Was Not Completed In Its Entirety,INFO
+2024003,4028.0,un0000000000002202,2024-11-10 00:09:08,False,4,CHECK - FILL Clean-In-Place (CIP) Water Tank With Treated Water - If Insufficient Volume Of Water Stored In The Clean-In-Place (CIP) Water Tank For Current Sequence,INFO
+2024003,4034.0,un0000000000002202,2024-11-10 00:10:17,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4035.0,un0000000000002202,2024-11-10 00:26:30,False,4,MEMBRANE MAINTENANCE CLEAN - RINSE Membrane If It Is CHLORINATED OR EXECUTE Another Clean Cycle If LAST Membrane Maintenance Clean Was Interrupted/Was Not Completed In Its Entirety,INFO
+2024003,4016.0,un0000000000002202,2024-11-10 00:57:50,False,4,STOP Chemical Dosing and Soaking - If Poison Timer Has Ended - Transition to Tag Out State,INFO
+2024003,,un0000000000002202,2024-11-10 21:00:08,False,4,Received the command for stopstate,INFO
+2024003,,un0000000000002202,2024-11-10 22:33:05,False,4,Received the command for stopstate,INFO
+2024003,2000.0,un0000000000002202,2024-11-11 00:00:22,False,4,Received the command for initializationstate,INFO
+2024003,4033.0,un0000000000002202,2024-11-11 00:01:48,False,4,GENERAL SYSTEM - FILL Membrane Feed & Filtrate Sides With Water,INFO
+2024003,4035.0,un0000000000002202,2024-11-11 00:08:04,False,4,MEMBRANE MAINTENANCE CLEAN - RINSE Membrane If It Is CHLORINATED OR EXECUTE Another Clean Cycle If LAST Membrane Maintenance Clean Was Interrupted/Was Not Completed In Its Entirety,INFO
+2024003,4028.0,un0000000000002202,2024-11-11 00:09:14,False,4,CHECK - FILL Clean-In-Place (CIP) Water Tank With Treated Water - If Insufficient Volume Of Water Stored In The Clean-In-Place (CIP) Water Tank For Current Sequence,INFO
+2024003,4034.0,un0000000000002202,2024-11-11 00:10:27,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4035.0,un0000000000002202,2024-11-11 00:27:06,False,4,MEMBRANE MAINTENANCE CLEAN - RINSE Membrane If It Is CHLORINATED OR EXECUTE Another Clean Cycle If LAST Membrane Maintenance Clean Was Interrupted/Was Not Completed In Its Entirety,INFO
+2024003,4033.0,un0000000000002202,2024-11-11 00:57:35,False,4,GENERAL SYSTEM - FILL Membrane Feed & Filtrate Sides With Water,INFO
+2024003,4043.0,un0000000000002202,2024-11-11 01:03:44,False,4,"MEMBRANE DIRECT INTEGRITY (DIT) TEST -  Complete DIT, If The Maximum Allowed Time Without A DIT Has Been Exceeded",INFO
+2024003,4046.0,un0000000000002202,2024-11-11 01:23:52,False,4,MEMBRANE DIRECT INTEGRITY (DIT) TEST - RETURN To Membrane Direct Integrity Testing (DIT) If LAST DIT Was Interrupted/Was Not Completed In Its Entirety,INFO
+2024003,4046.0,un0000000000002202,2024-11-11 01:43:57,False,4,MEMBRANE DIRECT INTEGRITY (DIT) TEST - RETURN To Membrane Direct Integrity Testing (DIT) If LAST DIT Was Interrupted/Was Not Completed In Its Entirety,INFO
+2024003,4054.0,un0000000000002202,2024-11-11 02:04:30,False,4,AUTOMATIC TRANSITION - Production State - Continue Potable Water Production,INFO
+2024003,4062.0,un0000000000002202,2024-11-11 02:20:28,False,4,CLEAN IN PLACE TRIGGER - Transition to Pre-Filter Flush Clean State - IF Cleaning In-Place Cycle Trigger Mode Is Set To TIME,INFO
+2024003,2000.0,un0000000000002202,2024-11-11 02:21:47,False,4,Received the command for initializationstate,INFO
+2024003,4041.0,un0000000000002202,2024-11-11 02:25:25,False,4,AUTOMATIC TRANSITION - Production State,INFO
+2024003,2000.0,un0000000000002202,2024-11-11 02:41:40,False,4,Received the command for initializationstate,INFO
+2024003,4054.0,un0000000000002202,2024-11-11 02:42:59,False,4,AUTOMATIC TRANSITION - Production State - Continue Potable Water Production,INFO
+2024003,4061.0,un0000000000002202,2024-11-11 04:52:16,False,4,CLEAN IN PLACE TRIGGER - Transition to Membrane Air Scour State - IF Cleaning In-Place Cycle Trigger Mode Is Set To TIME,INFO
+2024003,4037.0,un0000000000002202,2024-11-11 05:05:21,False,4,"MEMBRANE CLEANING - TEST Membrane Flux Profile, Post Membrane Air Scouring And/Or Membrane Maintenance Clean",INFO
+2024003,4049.0,un0000000000002202,2024-11-11 05:09:58,False,4,STOP Membrane Flux Profile Test - Test FAILED,INFO
+2024003,4039.0,un0000000000002202,2024-11-11 05:11:09,False,4,"MEMBRANE MAINTENANCE CLEAN - If Membrane Flux Profile Test FAILED, TRANSITION To A Membrane Maintenace Clean, If Consecutive Membrane Air Scour Count Is Above Maximum Limit and Consecutive Membrane Maintenance Clean Count Is Below Maximum Limit",INFO
+2024003,4028.0,un0000000000002202,2024-11-11 05:12:19,False,4,CHECK - FILL Clean-In-Place (CIP) Water Tank With Treated Water - If Insufficient Volume Of Water Stored In The Clean-In-Place (CIP) Water Tank For Current Sequence,INFO
+2024003,4034.0,un0000000000002202,2024-11-11 05:13:31,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4035.0,un0000000000002202,2024-11-11 05:26:51,False,4,MEMBRANE MAINTENANCE CLEAN - RINSE Membrane If It Is CHLORINATED OR EXECUTE Another Clean Cycle If LAST Membrane Maintenance Clean Was Interrupted/Was Not Completed In Its Entirety,INFO
+2024003,4016.0,un0000000000002202,2024-11-11 05:58:11,False,4,STOP Chemical Dosing and Soaking - If Poison Timer Has Ended - Transition to Tag Out State,INFO
+2024003,,un0000000000002202,2024-11-11 21:00:05,False,4,Received the command for stopstate,INFO
+2024003,2000.0,un0000000000002202,2024-11-12 00:00:32,False,4,Received the command for initializationstate,INFO
+2024003,4033.0,un0000000000002202,2024-11-12 00:01:58,False,4,GENERAL SYSTEM - FILL Membrane Feed & Filtrate Sides With Water,INFO
+2024003,4035.0,un0000000000002202,2024-11-12 00:08:08,False,4,MEMBRANE MAINTENANCE CLEAN - RINSE Membrane If It Is CHLORINATED OR EXECUTE Another Clean Cycle If LAST Membrane Maintenance Clean Was Interrupted/Was Not Completed In Its Entirety,INFO
+2024003,4028.0,un0000000000002202,2024-11-12 00:09:19,False,4,CHECK - FILL Clean-In-Place (CIP) Water Tank With Treated Water - If Insufficient Volume Of Water Stored In The Clean-In-Place (CIP) Water Tank For Current Sequence,INFO
+2024003,4034.0,un0000000000002202,2024-11-12 00:10:29,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4035.0,un0000000000002202,2024-11-12 00:25:15,False,4,MEMBRANE MAINTENANCE CLEAN - RINSE Membrane If It Is CHLORINATED OR EXECUTE Another Clean Cycle If LAST Membrane Maintenance Clean Was Interrupted/Was Not Completed In Its Entirety,INFO
+2024003,4016.0,un0000000000002202,2024-11-12 00:56:33,False,4,STOP Chemical Dosing and Soaking - If Poison Timer Has Ended - Transition to Tag Out State,INFO
+2024003,,un0000000000002202,2024-11-12 21:00:06,False,4,Received the command for stopstate,INFO
+2024003,2000.0,un0000000000002202,2024-11-13 00:00:31,False,4,Received the command for initializationstate,INFO
+2024003,4033.0,un0000000000002202,2024-11-13 00:01:57,False,4,GENERAL SYSTEM - FILL Membrane Feed & Filtrate Sides With Water,INFO
+2024003,4035.0,un0000000000002202,2024-11-13 00:07:56,False,4,MEMBRANE MAINTENANCE CLEAN - RINSE Membrane If It Is CHLORINATED OR EXECUTE Another Clean Cycle If LAST Membrane Maintenance Clean Was Interrupted/Was Not Completed In Its Entirety,INFO
+2024003,4028.0,un0000000000002202,2024-11-13 00:09:08,False,4,CHECK - FILL Clean-In-Place (CIP) Water Tank With Treated Water - If Insufficient Volume Of Water Stored In The Clean-In-Place (CIP) Water Tank For Current Sequence,INFO
+2024003,4034.0,un0000000000002202,2024-11-13 00:10:20,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4035.0,un0000000000002202,2024-11-13 00:25:19,False,4,MEMBRANE MAINTENANCE CLEAN - RINSE Membrane If It Is CHLORINATED OR EXECUTE Another Clean Cycle If LAST Membrane Maintenance Clean Was Interrupted/Was Not Completed In Its Entirety,INFO
+2024003,4016.0,un0000000000002202,2024-11-13 00:56:35,False,4,STOP Chemical Dosing and Soaking - If Poison Timer Has Ended - Transition to Tag Out State,INFO
+2024003,2000.0,un0000000000002202,2024-11-13 12:54:34,False,4,Received the command for initializationstate,INFO
+2024003,4033.0,un0000000000002202,2024-11-13 12:55:57,False,4,GENERAL SYSTEM - FILL Membrane Feed & Filtrate Sides With Water,INFO
+2024003,4035.0,un0000000000002202,2024-11-13 13:08:29,False,4,MEMBRANE MAINTENANCE CLEAN - RINSE Membrane If It Is CHLORINATED OR EXECUTE Another Clean Cycle If LAST Membrane Maintenance Clean Was Interrupted/Was Not Completed In Its Entirety,INFO
+2024003,4028.0,un0000000000002202,2024-11-13 13:09:43,False,4,CHECK - FILL Clean-In-Place (CIP) Water Tank With Treated Water - If Insufficient Volume Of Water Stored In The Clean-In-Place (CIP) Water Tank For Current Sequence,INFO
+2024003,4034.0,un0000000000002202,2024-11-13 13:10:56,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,2000.0,un0000000000002202,2024-11-13 20:52:54,False,4,Received the command for initializationstate,INFO
+2024003,4034.0,un0000000000002202,2024-11-13 20:54:12,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,,un0000000000002202,2024-11-13 21:00:09,False,4,Received the command for stopstate,INFO
+2024003,2000.0,un0000000000002202,2024-11-14 00:00:33,False,4,Received the command for initializationstate,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 00:01:59,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,2000.0,un0000000000002202,2024-11-14 02:25:13,False,4,Received the command for initializationstate,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 02:26:38,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,2000.0,un0000000000002202,2024-11-14 03:58:16,False,4,Received the command for initializationstate,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 03:59:38,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 04:04:43,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 04:10:14,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 04:15:08,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 04:20:14,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 04:25:01,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 04:29:50,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 04:34:46,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 04:39:41,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 04:44:39,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 04:49:35,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 04:54:21,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 04:59:05,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 05:04:05,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 05:08:49,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 05:13:38,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 05:18:23,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 05:23:13,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 05:28:02,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 05:32:39,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 05:37:24,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 05:42:09,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 05:46:44,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 05:51:31,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 05:56:00,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 06:00:45,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 06:05:22,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 06:10:01,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 06:14:34,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 06:19:21,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 06:23:56,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 06:28:33,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 06:33:09,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 06:37:35,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 06:42:11,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 06:46:46,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 06:51:12,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 06:55:38,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 07:00:04,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 07:04:38,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 07:09:17,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 07:13:46,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 07:18:20,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 07:22:53,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 07:27:32,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 07:32:01,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 07:36:24,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 07:42:36,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 07:48:34,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 07:53:12,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 07:57:31,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 08:01:54,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 08:06:23,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 08:10:46,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 08:15:15,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 08:19:49,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 08:24:17,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 08:28:49,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 08:33:19,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 08:37:42,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 08:42:10,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 08:46:42,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 08:51:13,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 08:55:46,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 09:00:12,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 09:04:39,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 09:09:11,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 09:13:41,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 09:18:03,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 09:22:34,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 09:27:08,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 09:31:26,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 09:35:59,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 09:40:27,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 09:44:57,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 09:49:19,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 09:53:59,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 09:58:29,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 10:02:53,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 10:07:20,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 10:11:38,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 10:16:06,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 10:20:29,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 10:24:59,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 10:29:14,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 10:33:40,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 10:38:08,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 10:42:37,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 10:47:00,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 10:51:30,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 10:55:52,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 11:00:21,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 11:04:44,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 11:09:13,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 11:13:28,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 11:17:55,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 11:22:18,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 11:26:45,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 11:31:03,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 11:35:26,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 11:39:56,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 11:44:18,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 11:48:48,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 11:53:11,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 11:57:40,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 12:01:58,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 12:06:27,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 12:10:42,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 12:15:08,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 12:19:36,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 12:24:01,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 12:28:27,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 12:32:56,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 12:37:19,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 12:41:48,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 12:46:07,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 12:50:36,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 12:54:51,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 12:59:18,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 13:03:41,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 13:08:08,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 13:12:33,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 13:16:49,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 13:21:18,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 13:25:41,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 13:30:09,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 13:34:25,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 13:38:51,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 13:43:14,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 13:47:40,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 13:52:06,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 13:56:21,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 14:00:33,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 14:04:59,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 14:09:28,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 14:13:57,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 14:18:16,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 14:22:44,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 14:27:00,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 14:31:25,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 14:35:45,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 14:40:01,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 14:44:27,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 14:48:53,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 14:53:18,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 14:57:46,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 15:02:13,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 15:06:39,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 15:11:03,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 15:15:31,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 15:20:00,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 15:24:18,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 15:28:48,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 15:33:03,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 15:37:24,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 15:41:51,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 15:46:06,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 15:50:33,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 15:55:00,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 15:59:26,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 16:03:52,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 16:08:19,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 16:12:33,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 16:17:02,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 16:21:21,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 16:25:36,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 16:30:03,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 16:34:26,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 16:38:55,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 16:43:18,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 16:47:37,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 16:52:03,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 16:56:29,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 17:00:58,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 17:05:14,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 17:09:28,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 17:13:57,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 17:18:13,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 17:22:39,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 17:27:04,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 17:31:18,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 17:35:48,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 17:40:11,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 17:44:40,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 17:49:04,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 17:53:22,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 17:57:48,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 18:02:01,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 18:06:27,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 18:10:50,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 18:15:08,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 18:19:38,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 18:23:54,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 18:28:08,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 18:32:27,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 18:36:50,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 18:41:08,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 18:45:34,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 18:50:00,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 18:54:26,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 18:58:52,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 19:03:21,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 19:07:45,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 19:12:03,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 19:16:35,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 19:21:04,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 19:25:19,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 19:29:45,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 19:34:11,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 19:38:26,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 19:42:52,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 19:47:18,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 19:51:43,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 19:56:10,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 20:00:30,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 20:04:53,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 20:09:10,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 20:13:38,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 20:18:02,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 20:22:31,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 20:26:54,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 20:31:13,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 20:35:41,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 20:40:06,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 20:44:33,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 20:49:03,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 20:53:27,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-14 20:57:44,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,,un0000000000002202,2024-11-14 21:00:06,False,4,Received the command for stopstate,INFO
+2024003,2000.0,un0000000000002202,2024-11-15 00:00:29,False,4,Received the command for initializationstate,INFO
+2024003,4034.0,un0000000000002202,2024-11-15 00:01:55,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-15 00:06:41,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-15 00:12:01,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4000.0,un0000000000002202,2024-11-15 00:29:09,False,4,STOP Production UV Irradiation Lamp Warm Up - If Poison Timer Has Ended - Transition to TagOut State,INFO
+2024003,2000.0,un0000000000002202,2024-11-15 03:41:26,False,4,Received the command for initializationstate,INFO
+2024003,4034.0,un0000000000002202,2024-11-15 03:42:57,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4000.0,un0000000000002202,2024-11-15 04:00:14,False,4,STOP Production UV Irradiation Lamp Warm Up - If Poison Timer Has Ended - Transition to TagOut State,INFO
+2024003,2000.0,un0000000000002202,2024-11-15 04:05:04,False,4,Received the command for initializationstate,INFO
+2024003,4034.0,un0000000000002202,2024-11-15 04:06:28,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4000.0,un0000000000002202,2024-11-15 04:23:45,False,4,STOP Production UV Irradiation Lamp Warm Up - If Poison Timer Has Ended - Transition to TagOut State,INFO
+2024003,2000.0,un0000000000002202,2024-11-15 04:27:54,False,4,Received the command for initializationstate,INFO
+2024003,4034.0,un0000000000002202,2024-11-15 04:29:16,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4000.0,un0000000000002202,2024-11-15 04:46:26,False,4,STOP Production UV Irradiation Lamp Warm Up - If Poison Timer Has Ended - Transition to TagOut State,INFO
+2024003,,un0000000000002202,2024-11-15 21:00:07,False,4,Received the command for stopstate,INFO
+2024003,2000.0,un0000000000002202,2024-11-16 00:00:30,False,4,Received the command for initializationstate,INFO
+2024003,4034.0,un0000000000002202,2024-11-16 00:01:56,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4000.0,un0000000000002202,2024-11-16 00:19:07,False,4,STOP Production UV Irradiation Lamp Warm Up - If Poison Timer Has Ended - Transition to TagOut State,INFO
+2024003,,un0000000000002202,2024-11-16 21:00:06,False,4,Received the command for stopstate,INFO
+2024003,2000.0,un0000000000002202,2024-11-17 00:00:28,False,4,Received the command for initializationstate,INFO
+2024003,4034.0,un0000000000002202,2024-11-17 00:01:55,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4000.0,un0000000000002202,2024-11-17 00:19:00,False,4,STOP Production UV Irradiation Lamp Warm Up - If Poison Timer Has Ended - Transition to TagOut State,INFO
+2024003,,un0000000000002202,2024-11-17 21:00:04,False,4,Received the command for stopstate,INFO
+2024003,4034.0,un0000000000002202,2024-11-17 23:33:51,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4000.0,un0000000000002202,2024-11-17 23:51:05,False,4,STOP Production UV Irradiation Lamp Warm Up - If Poison Timer Has Ended - Transition to TagOut State,INFO
+2024003,,un0000000000002202,2024-11-27 01:42:38,False,4,Received the command for stopstate,INFO
+2024003,4034.0,un0000000000002202,2024-11-27 04:57:40,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-27 05:01:45,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,,un0000000000002202,2024-11-27 05:05:38,False,4,Received the command for stopstate,INFO
+2024003,4034.0,un0000000000002202,2024-11-27 19:25:01,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-27 19:29:07,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-27 19:33:15,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-27 19:37:22,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-27 19:41:30,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-27 19:45:38,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-27 19:49:47,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-27 19:53:55,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-27 19:58:01,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-27 20:02:05,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-27 20:06:13,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-27 20:10:21,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-27 20:14:31,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-27 20:18:41,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-27 20:22:50,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-27 20:26:59,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-27 20:31:08,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-27 20:35:17,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,4034.0,un0000000000002202,2024-11-27 20:39:25,False,4,GENERAL SYSTEM - FILL Clean-In-Place (CIP) Water Tank With Treated Water For Immediate Use,INFO
+2024003,,un0000000000002202,2024-11-27 20:40:35,False,4,Received the command for stopstate,INFO
