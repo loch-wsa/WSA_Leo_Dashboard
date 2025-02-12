@@ -154,239 +154,443 @@ def create_microbial_display(week_num, als_lookups, data_df, ranges_df):
                     delta=None
                 )
 
+def create_single_parameter_gauge(value, param_name, min_val, max_val, unit="", color='#1E90FF'):
+    """Create a radial gauge chart for a single parameter"""
+    
+    # Process the value
+    try:
+        if isinstance(value, str):
+            if value.startswith('<'):
+                value = float(value.replace('<', ''))
+            elif value == 'N/R':
+                value = None
+            elif 'LINT' in value:
+                value = float(value.split()[0].replace('<', ''))
+            else:
+                value = float(value)
+    except (ValueError, TypeError):
+        value = None
+
+    if value is None:
+        return None
+
+    # Create the gauge chart
+    fig = go.Figure()
+
+    # Add the gauge
+    fig.add_trace(go.Indicator(
+        mode = "gauge+number",
+        value = value,
+        domain = {'x': [0.1, 0.9], 'y': [0.1, 0.9]},
+        title = {'text': f"{param_name} ({unit})" if unit else param_name},
+        gauge = {
+            'axis': {'range': [min_val, max_val]},
+            'bar': {'color': color},
+            'steps': [
+                {'range': [min_val, (min_val + max_val)/2], 'color': "lightgray"},
+                {'range': [(min_val + max_val)/2, max_val], 'color': "white"}
+            ],
+            'threshold': {
+                'line': {'color': "red", 'width': 4},
+                'thickness': 0.75,
+                'value': max_val
+            }
+        }
+    ))
+
+    # Update layout
+    fig.update_layout(
+        height=400,
+        margin=dict(t=50, b=50, l=50, r=50),
+        paper_bgcolor='rgba(0,0,0,0)',
+        plot_bgcolor='rgba(0,0,0,0)'
+    )
+
+    return fig
+
+def create_comparison_gauge(influent_value, treated_value, param_name, min_val, max_val, unit=""):
+    """Create a comparison gauge for a single parameter showing both values"""
+    
+    # Process the values
+    def process_value(val):
+        try:
+            if isinstance(val, str):
+                if val.startswith('<'):
+                    return float(val.replace('<', ''))
+                elif val == 'N/R':
+                    return None
+                elif 'LINT' in val:
+                    return float(val.split()[0].replace('<', ''))
+                else:
+                    return float(val)
+        except (ValueError, TypeError):
+            return None
+        return val
+
+    influent_value = process_value(influent_value)
+    treated_value = process_value(treated_value)
+
+    if influent_value is None or treated_value is None:
+        return None
+
+    # Calculate improvement percentage
+    improvement = ((influent_value - treated_value) / influent_value * 100 
+                  if influent_value != 0 else 0)
+
+    # Create the comparison gauge
+    fig = go.Figure()
+
+    # Add the two indicators side by side
+    fig.add_trace(go.Indicator(
+        mode="gauge+number",
+        value=influent_value,
+        domain={'x': [0, 0.45], 'y': [0, 1]},
+        title={'text': f"Influent<br>{param_name}"},
+        gauge={
+            'axis': {'range': [min_val, max_val]},
+            'bar': {'color': '#8B4513'},
+            'steps': [
+                {'range': [min_val, (min_val + max_val)/2], 'color': "lightgray"},
+                {'range': [(min_val + max_val)/2, max_val], 'color': "white"}
+            ]
+        }
+    ))
+
+    fig.add_trace(go.Indicator(
+        mode="gauge+number",
+        value=treated_value,
+        domain={'x': [0.55, 1], 'y': [0, 1]},
+        title={'text': f"Treated<br>{param_name}"},
+        gauge={
+            'axis': {'range': [min_val, max_val]},
+            'bar': {'color': '#1E90FF'},
+            'steps': [
+                {'range': [min_val, (min_val + max_val)/2], 'color': "lightgray"},
+                {'range': [(min_val + max_val)/2, max_val], 'color': "white"}
+            ]
+        }
+    ))
+
+    # Add improvement annotation
+    fig.add_annotation(
+        text=f"{abs(improvement):.1f}% {'reduction' if improvement > 0 else 'increase'}",
+        xref="paper",
+        yref="paper",
+        x=0.5,
+        y=1.1,
+        showarrow=False,
+        font=dict(size=16)
+    )
+
+    # Update layout
+    fig.update_layout(
+        height=400,
+        margin=dict(t=80, b=50, l=50, r=50),
+        paper_bgcolor='rgba(0,0,0,0)',
+        plot_bgcolor='rgba(0,0,0,0)'
+    )
+
+    return fig
+
 def create_radar_chart(week_num, als_lookups, data_df, treated_data, ranges_df, treated_ranges, chart_type='comparison', category=None):
     """
     Create a radar chart based on the specified type (influent, treated, or comparison)
     """
-    week_cols = [col for col in data_df.columns if col.startswith('Week')]
     week_col = f'Week {week_num}'
     
+    # Always use influent ranges for comparison tab
+    display_ranges = ranges_df if chart_type in ['influent', 'comparison'] else treated_ranges
+    
     # Filter data and ranges
-    ranges_filtered = ranges_df[ranges_df['ALS Lookup'].isin(als_lookups)].copy()
+    ranges_filtered = display_ranges[display_ranges['ALS Lookup'].isin(als_lookups)].copy()
     data_filtered = data_df[data_df['ALS Lookup'].isin(als_lookups)].copy()
     treated_filtered = treated_data[treated_data['ALS Lookup'].isin(als_lookups)].copy()
-    treated_ranges_filtered = treated_ranges[treated_ranges['ALS Lookup'].isin(als_lookups)].copy()
-    
-    def create_hover_text(param_name, value, min_val, max_val, unit):
-        """Create hover text with special handling for pH and UVT"""
-        if value is None:
-            return f"{param_name}: No data available"
-            
-        value_format = '.4f' if value <= 1 else '.1f'
-        unit_text = f" {unit}" if unit else ""
-        
-        param_upper = str(param_name).upper()
-        
-        # Add special notes for pH and UVT
-        special_note = ""
-        if param_upper == 'PH':
-            special_note = "<br>Note: Optimal pH is 7.5"
-        elif 'UVT' in param_upper:
-            special_note = "<br>Note: Higher UVT % is better"
-            
-        hover_text = (
-            f"{param_name}<br>" +
-            f"Value: {value:{value_format}}{unit_text}<br>" +
-            f"Range: {min_val:.2f} - {max_val:.2f}{unit_text}" +
-            special_note
+
+    # Process single value
+    def process_single_value(value):
+        try:
+            if isinstance(value, str):
+                if value.startswith('<'):
+                    return float(value.replace('<', ''))
+                elif value == 'N/R':
+                    return None
+                elif 'LINT' in value:
+                    return float(value.split()[0].replace('<', ''))
+                else:
+                    return float(value)
+            return float(value) if value is not None else None
+        except (ValueError, TypeError):
+            return None
+
+    # Special handling for single parameter cases
+    if len(als_lookups) == 1:
+        # Get parameter details
+        param_info = ranges_filtered.iloc[0]
+        param_name = param_info['Parameter']
+        unit = param_info['Unit'] if pd.notna(param_info['Unit']) else ""
+        min_val = float(param_info['Min']) if pd.notna(param_info['Min']) else 0
+        max_val = float(param_info['Max']) if pd.notna(param_info['Max']) else 1
+
+        # Get values
+        influent_value = process_single_value(data_filtered[week_col].iloc[0])
+        treated_value = process_single_value(treated_filtered[week_col].iloc[0])
+
+        # Calculate normalized values and percent reduction
+        if influent_value is not None and treated_value is not None:
+            percent_diff = ((influent_value - treated_value) / influent_value * 100 
+                          if influent_value != 0 else 0)
+        else:
+            percent_diff = None
+
+        # Create the figure for single parameter
+        fig = go.Figure()
+
+        # Create semi-circle points
+        theta = np.linspace(-np.pi/2, np.pi/2, 50)  # Creates a semicircle
+        base_x = np.cos(theta)
+        base_y = np.sin(theta)
+
+        # Add traces based on chart type
+        if chart_type in ['influent', 'comparison']:
+            norm_influent = normalize_parameter(influent_value, param_name, min_val, max_val)
+            if norm_influent is not None:
+                fig.add_trace(go.Scatter(
+                    x=base_x * norm_influent,
+                    y=base_y * norm_influent,
+                    name='Influent Water',
+                    line=dict(color='#8B4513', width=1),
+                    hovertemplate=f"Influent: {influent_value:.4f} {unit}<extra></extra>"
+                ))
+
+        if chart_type in ['treated', 'comparison']:
+            norm_treated = normalize_parameter(treated_value, param_name, min_val, max_val)
+            if norm_treated is not None:
+                fig.add_trace(go.Scatter(
+                    x=base_x * norm_treated,
+                    y=base_y * norm_treated,
+                    name='Treated Water',
+                    line=dict(color='#1E90FF', width=1),
+                    hovertemplate=f"Treated: {treated_value:.4f} {unit}<extra></extra>"
+                ))
+
+        # Add grid circles (transparent)
+        for r in [0.25, 0.5, 0.75, 1.0]:
+            fig.add_trace(go.Scatter(
+                x=base_x * r,
+                y=base_y * r,
+                mode='lines',
+                line=dict(color='gray', width=0.5, dash='dot'),
+                showlegend=False,
+                hoverinfo='skip'
+            ))
+
+        # Check if values are out of range
+        warning_symbol = ""
+        if (influent_value is not None and (influent_value < min_val or influent_value > max_val)) or \
+           (treated_value is not None and (treated_value < min_val or treated_value > max_val)):
+            warning_symbol = "⚠️ "
+
+        # Create appropriate label based on chart type
+        if chart_type == 'comparison':
+            # For comparison, only show parameter name and reduction once
+            label_text = f"{warning_symbol}{param_name}"
+            if percent_diff is not None:
+                fig.add_annotation(
+                    x=0,
+                    y=1.1,
+                    text=f"{abs(percent_diff):.1f}% {'reduction' if percent_diff > 0 else 'increase'}",
+                    showarrow=False,
+                    font=dict(size=14)
+                )
+        else:
+            # For individual views, show value and range
+            value_to_display = influent_value if chart_type == 'influent' else treated_value
+            if value_to_display is not None:
+                value_format = '.4f' if value_to_display <= 1 else '.1f'
+                label_text = (
+                    f"{warning_symbol}{param_name}\n"
+                    f"{value_to_display:{value_format}} "
+                    f"({min_val:.2f} - {max_val:.2f})"
+                )
+                if unit:
+                    label_text += f" {unit}"
+            else:
+                label_text = f"{warning_symbol}{param_name} \n No data available"
+
+        # Add parameter label
+        fig.add_annotation(
+            x=0,
+            y=-0.1,
+            text=label_text,
+            showarrow=False,
+            font=dict(size=12)
         )
-        
-        return hover_text
-        
-    def process_parameter_data(param_data, param_ranges):
-        """Process data for a single dataset"""
-        values = []
-        normalized_values = []
-        labels = []
-        hover_texts = []
-        
-        for _, range_row in param_ranges.iterrows():
-            als_lookup = range_row['ALS Lookup']
-            param_name = range_row['Parameter']
-            unit = range_row['Unit'] if pd.notna(range_row['Unit']) else ""
+
+        # Update layout for semicircle
+        fig.update_layout(
+            showlegend=True,
+            height=400,
+            xaxis=dict(
+                range=[-1.1, 1.1],
+                showgrid=False,
+                zeroline=False,
+                showticklabels=False
+            ),
+            yaxis=dict(
+                range=[-0.1, 1.2],
+                showgrid=False,
+                zeroline=False,
+                showticklabels=False
+            ),
+            paper_bgcolor='rgba(0,0,0,0)',
+            plot_bgcolor='rgba(0,0,0,0)',
+            margin=dict(t=50, b=30, l=30, r=30)
+        )
+
+        return fig, None
+
+    else:
+        # Process datasets for multi-parameter case
+        def process_parameter_data(param_data, param_ranges):
+            """Process data for a single dataset"""
+            values = []
+            normalized_values = []
+            labels = []
+            hover_texts = []
             
-            # Get parameter data
-            row_data = param_data[param_data['ALS Lookup'] == als_lookup]
-            if not row_data.empty and week_col in row_data.columns:
-                value = row_data[week_col].iloc[0]
-                min_val = float(range_row['Min']) if pd.notna(range_row['Min']) else 0
-                max_val = float(range_row['Max']) if pd.notna(range_row['Max']) else 1
+            for _, range_row in param_ranges.iterrows():
+                als_lookup = range_row['ALS Lookup']
+                param_name = range_row['Parameter']
+                unit = range_row['Unit'] if pd.notna(range_row['Unit']) else ""
                 
-                # Format value with appropriate decimal places
-                if value is not None:
-                    if isinstance(value, str):
-                        if value.startswith('<'):
-                            value = float(value.replace('<', ''))
-                        elif value == 'N/R':
-                            value = None
-                        elif 'LINT' in value:
-                            value = float(value.split()[0].replace('<', ''))
-                        else:
-                            value = float(value)
+                # Get parameter data
+                row_data = param_data[param_data['ALS Lookup'] == als_lookup]
+                if not row_data.empty and week_col in row_data.columns:
+                    value = row_data[week_col].iloc[0]
+                    min_val = float(range_row['Min']) if pd.notna(range_row['Min']) else 0
+                    max_val = float(range_row['Max']) if pd.notna(range_row['Max']) else 1
                     
+                    # Process value
+                    try:
+                        if isinstance(value, str):
+                            if value.startswith('<'):
+                                value = float(value.replace('<', ''))
+                            elif value == 'N/R':
+                                value = None
+                            elif 'LINT' in value:
+                                value = float(value.split()[0].replace('<', ''))
+                            else:
+                                value = float(value)
+                    except (ValueError, TypeError):
+                        value = None
+                    
+                    values.append(value)
+                    norm_val = normalize_parameter(value, param_name, min_val, max_val)
+                    normalized_values.append(norm_val)
+                    
+                    # Create label based on chart type
+                    if chart_type == 'comparison':
+                        treated_val = treated_filtered[treated_filtered['ALS Lookup'] == als_lookup][week_col].iloc[0]
+                        if isinstance(treated_val, str):
+                            treated_val = float(treated_val.replace('<', '').split()[0])
+                        
+                        if value is not None and treated_val is not None and value != 0:
+                            percent_diff = ((value - treated_val) / value) * 100
+                            label = f"{param_name}<br>{abs(percent_diff):.1f}% {'reduction' if percent_diff > 0 else 'increase'}"
+                        else:
+                            label = param_name
+                    else:
+                        value_format = '.4f' if value <= 1 else '.1f'
+                        value_text = f"{value:{value_format}}" if value is not None else "N/A"
+                        range_text = f"({min_val:.2f} - {max_val:.2f})"
+                        if unit:
+                            range_text += f" {unit}"
+                        label = f"{param_name}<br>{value_text} {range_text}"
+                    
+                    labels.append(label)
+                    
+                    # Create hover text
                     if value is not None:
                         value_format = '.4f' if value <= 1 else '.1f'
-                        value_text = f"{value:{value_format}}"
-                    else:
-                        value_text = "N/A"
-                else:
-                    value_text = "N/A"
-                
-                # Create range text with unit
-                range_text = f"({min_val:.2f} - {max_val:.2f})"
-                if unit:
-                    range_text += f" {unit}"
-                
-                # Check if value is out of range and add warning icon if needed
-                warning_icon = "⚠️ " if (value is not None and (value > max_val or value < min_val)) else ""
-                
-                # Create label based on chart type and availability of comparison data
-                if chart_type == 'comparison' and 'raw_treated' in locals():
-                    # Calculate improvement percentage for comparison charts
-                    treated_val = raw_treated[len(values)] if raw_treated else None
-                    if value is not None and treated_val is not None and value != 0:
-                        improvement = ((value - treated_val) / value) * 100
-                        label = [
-                            f"{warning_icon}{param_name}",
-                            f"{improvement:.1f}% improvement",
-                            f"{value_text} {range_text}"
-                        ]
-                    else:
-                        label = [
-                            f"{warning_icon}{param_name}",
-                            f"{value_text} {range_text}"
-                        ]
-                else:
-                    label = [
-                        f"{warning_icon}{param_name}",
-                        f"{value_text} {range_text}"
-                    ]
-                
-                # Join with HTML line breaks for proper multi-line display
-                label_text = '<br>'.join(label)
-                labels.append(label_text)
-                
-                # Process and normalize value
-                try:
-                    if isinstance(value, str):
-                        if value.startswith('<'):
-                            value = float(value.replace('<', ''))
-                        elif value == 'N/R':
-                            value = None
-                        elif 'LINT' in value:
-                            value = float(value.split()[0].replace('<', ''))
-                        else:
-                            value = float(value)
-                except (ValueError, TypeError):
-                    value = None
-                
-                values.append(value)
-                norm_val = normalize_parameter(value, param_name, min_val, max_val)
-                normalized_values.append(norm_val)
-                
-                # Create hover text with warning icon if needed
-                if value is None:
-                    hover_text = f"{warning_icon}{param_name}: No data available"
-                else:
-                    value_format = '.4f' if value <= 1 else '.1f'
-                    unit_text = f" {unit}" if unit else ""
-                    
-                    if chart_type == 'comparison' and 'raw_treated' in locals():
-                        treated_val = raw_treated[len(values)] if raw_treated else None
-                        if treated_val is not None and value != 0:
-                            improvement = ((value - treated_val) / value) * 100
-                            hover_text = (
-                                f"{warning_icon}{param_name}<br>" +
-                                f"Improvement: {improvement:.1f}%<br>" +
-                                f"Influent: {value:{value_format}}{unit_text}<br>" +
-                                f"Treated: {treated_val:{value_format}}{unit_text}<br>" +
-                                f"Range: {min_val:.2f} - {max_val:.2f}{unit_text}"
-                            )
-                        else:
-                            hover_text = (
-                                f"{warning_icon}{param_name}<br>" +
-                                f"Value: {value:{value_format}}{unit_text}<br>" +
-                                f"Range: {min_val:.2f} - {max_val:.2f}{unit_text}"
-                            )
-                    else:
+                        unit_text = f" {unit}" if unit else ""
                         hover_text = (
-                            f"{warning_icon}{param_name}<br>" +
+                            f"{param_name}<br>" +
                             f"Value: {value:{value_format}}{unit_text}<br>" +
                             f"Range: {min_val:.2f} - {max_val:.2f}{unit_text}"
                         )
-                hover_texts.append(hover_text)
+                    else:
+                        hover_text = f"{param_name}: No data available"
+                    hover_texts.append(hover_text)
+            
+            return labels, normalized_values, hover_texts, values
         
-        return labels, normalized_values, hover_texts, values
-    
-    # Process both datasets
-    influent_labels, influent_values, influent_hovers, raw_influent = process_parameter_data(
-        data_filtered, ranges_filtered
-    )
-    treated_labels, treated_values, treated_hovers, raw_treated = process_parameter_data(
-        treated_filtered, treated_ranges_filtered
-    )
-    
-    # Create the figure
-    fig = go.Figure()
-    
-    # Add traces based on chart type
-    if chart_type in ['influent', 'comparison']:
-        # Add influent trace
-        fig.add_trace(go.Scatterpolar(
-            r=influent_values,
-            theta=influent_labels,
-            name='Influent Water',
-            fill='toself',
-            line=dict(color='#8B4513', shape='spline', smoothing=1.3),
-            connectgaps=True,
-            hovertemplate="%{text}<br>Quality: %{customdata:.0%}<extra></extra>",
-            customdata=[1 - v if v is not None else 0 for v in influent_values],
-            text=influent_hovers,
-            opacity=0.6
-        ))
-    
-    if chart_type in ['treated', 'comparison']:
-        # Add treated trace
-        fig.add_trace(go.Scatterpolar(
-            r=treated_values,
-            theta=treated_labels if chart_type == 'treated' else influent_labels,
-            name='Treated Water',
-            fill='toself',
-            line=dict(color='#1E90FF', shape='spline', smoothing=1.3),
-            connectgaps=True,
-            hovertemplate="%{text}<br>Quality: %{customdata:.0%}<extra></extra>",
-            customdata=[1 - v if v is not None else 0 for v in treated_values],
-            text=treated_hovers,
-            opacity=0.8
-        ))
-    
-    # Update layout
-    fig.update_layout(
-        polar=dict(
-            radialaxis=dict(
-                visible=True,
-                range=[0, 1],
-                tickmode='array',
-                ticktext=['Ideal', 'Good', 'Fair', 'Poor', 'Critical'],
-                tickvals=[0, 0.25, 0.5, 0.75, 1]
+        # Process both datasets
+        influent_labels, influent_values, influent_hovers, raw_influent = process_parameter_data(
+            data_filtered, ranges_filtered
+        )
+        treated_labels, treated_values, treated_hovers, raw_treated = process_parameter_data(
+            treated_filtered, ranges_filtered  # Use same ranges for treated data in comparison
+        )
+        
+        # Create the figure for multi-parameter case
+        fig = go.Figure()
+        
+        # Add traces based on chart type
+        if chart_type in ['influent', 'comparison']:
+            fig.add_trace(go.Scatterpolar(
+                r=influent_values,
+                theta=influent_labels,
+                name='Influent Water',
+                fill='toself',
+                line=dict(color='#8B4513', shape='spline', smoothing=1.3),
+                connectgaps=True,
+                hovertemplate="%{text}<br>Quality: %{customdata:.0%}<extra></extra>",
+                customdata=[1 - v if v is not None else 0 for v in influent_values],
+                text=influent_hovers,
+                opacity=0.6
+            ))
+        
+        if chart_type in ['treated', 'comparison']:
+            fig.add_trace(go.Scatterpolar(
+                r=treated_values,
+                theta=influent_labels if chart_type == 'comparison' else treated_labels,
+                name='Treated Water',
+                fill='toself',
+                line=dict(color='#1E90FF', shape='spline', smoothing=1.3),
+                connectgaps=True,
+                hovertemplate="%{text}<br>Quality: %{customdata:.0%}<extra></extra>",
+                customdata=[1 - v if v is not None else 0 for v in treated_values],
+                text=treated_hovers,
+                opacity=0.8
+            ))
+        
+        # Update layout for multi-parameter case
+        fig.update_layout(
+            polar=dict(
+                radialaxis=dict(
+                    visible=True,
+                    range=[0, 1],
+                    tickmode='array',
+                    ticktext=['Ideal', 'Good', 'Fair', 'Poor', 'Critical'],
+                    tickvals=[0, 0.25, 0.5, 0.75, 1]
+                ),
+                angularaxis=dict(
+                    direction="clockwise",
+                    period=len(influent_labels),
+                    rotation=90,
+                    tickangle=0,
+                    tickmode='array',
+                    ticktext=influent_labels,
+                    tickfont=dict(size=10),
+                ),
+                bgcolor='rgba(0,0,0,0)'
             ),
-            angularaxis=dict(
-                direction="clockwise",
-                period=len(influent_labels),
-                rotation=90,
-                tickangle=0,  # Keep text horizontal
-                tickmode='array',
-                ticktext=influent_labels,
-                tickfont=dict(size=10),  # Adjust font size
-            ),
-            bgcolor='rgba(0,0,0,0)'
-        ),
-        showlegend=True,
-        height=500,  # Increased height
-        title="",
-        margin=dict(t=50, b=50, l=80, r=80),  # Increased margins
-        paper_bgcolor='rgba(0,0,0,0)',
-        plot_bgcolor='rgba(0,0,0,0)'
-    )
-    
+            showlegend=True,
+            height=500,
+            title="",
+            margin=dict(t=50, b=50, l=80, r=80),
+            paper_bgcolor='rgba(0,0,0,0)',
+            plot_bgcolor='rgba(0,0,0,0)'
+        )
+
     return fig, None

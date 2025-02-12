@@ -1,0 +1,9 @@
+unitserialnumber,code,deviceId,timestamp,manual,type,message,alarm_type
+2024003,,un0000000000002202,2025-02-02 12:58:39,False,4,Received the command for stopstate,INFO
+2024003,2000.0,un0000000000002202,2025-02-02 12:59:04,False,4,Received the command for initializationstate,INFO
+2024003,4043.0,un0000000000002202,2025-02-02 13:00:37,False,4,"MEMBRANE DIRECT INTEGRITY (DIT) TEST -  Complete DIT, If The Maximum Allowed Time Without A DIT Has Been Exceeded",INFO
+2024003,4027.0,un0000000000002202,2025-02-02 13:13:11,False,4,STOP Membrane Direct Integrity Test Feed Pressurization - Transition To Wait State If DIT Target Test Hold Pressure Could Not Be Reached,INFO
+2024003,4033.0,un0000000000002202,2025-02-02 13:14:24,False,4,GENERAL SYSTEM - FILL Membrane Feed & Filtrate Sides With Water,INFO
+2024003,4046.0,un0000000000002202,2025-02-02 13:25:31,False,4,MEMBRANE DIRECT INTEGRITY (DIT) TEST - RETURN To Membrane Direct Integrity Testing (DIT) If LAST DIT Was Interrupted/Was Not Completed In Its Entirety,INFO
+2024003,4041.0,un0000000000002202,2025-02-02 13:51:05,False,4,AUTOMATIC TRANSITION - Production State,INFO
+2024003,4001.0,un0000000000002202,2025-02-02 14:21:50,False,4,STOP Clean-In-Place (CIP) Water Tank Fill - If Poison Timer Has Ended  - Transition to Tag Out State,INFO

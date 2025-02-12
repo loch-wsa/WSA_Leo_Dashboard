@@ -1,0 +1,5 @@
+unitserialnumber,code,deviceId,timestamp,manual,type,message,alarm_type
+2024003,3003,un0000000000002202,2024-12-12 23:14:30,False,2,LowLow Threshold breached for Fluid Temperature - Enclosure Air Temperature for ttr101_temperature ,ERROR
+2024003,3010,un0000000000002202,2024-12-20 00:09:26,False,2,"HighHigh Threshold breached for Tank Liquid Volume - Treated Water Reserve For System Cleaning, Internal to Enclosure for tnk102_volume ",ERROR
+2024003,3146,un0000000000002202,2024-12-26 09:14:55,False,2,HighHigh Threshold breached for Fluid Turbidity - System Water Output for trb102_turbidity ,ERROR
+2024003,3146,un0000000000002202,2024-12-30 09:34:45,False,2,HighHigh Threshold breached for Fluid Turbidity - System Water Output for trb102_turbidity ,ERROR

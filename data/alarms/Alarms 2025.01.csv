@@ -1,0 +1,11 @@
+unitserialnumber,code,deviceId,timestamp,manual,type,message,alarm_type
+2024003,3159,un0000000000002202,2025-01-02 18:01:45,False,2,LowLow Threshold breached for Membrane Temperature Compensated Specific Flux - Ultrafiltration Membrane for flu101_tcsf ,ERROR
+2024003,3146,un0000000000002202,2025-01-03 09:16:01,False,2,HighHigh Threshold breached for Fluid Turbidity - System Water Output for trb102_turbidity ,ERROR
+2024003,3159,un0000000000002202,2025-01-11 10:49:18,False,2,LowLow Threshold breached for Membrane Temperature Compensated Specific Flux - Ultrafiltration Membrane for flu101_tcsf ,ERROR
+2024003,3159,un0000000000002202,2025-01-12 10:42:50,False,2,LowLow Threshold breached for Membrane Temperature Compensated Specific Flux - Ultrafiltration Membrane for flu101_tcsf ,ERROR
+2024003,3159,un0000000000002202,2025-01-13 18:29:01,False,2,LowLow Threshold breached for Membrane Temperature Compensated Specific Flux - Ultrafiltration Membrane for flu101_tcsf ,ERROR
+2024003,3159,un0000000000002202,2025-01-14 11:47:40,False,2,LowLow Threshold breached for Membrane Temperature Compensated Specific Flux - Ultrafiltration Membrane for flu101_tcsf ,ERROR
+2024003,3159,un0000000000002202,2025-01-17 15:59:35,False,2,LowLow Threshold breached for Membrane Temperature Compensated Specific Flux - Ultrafiltration Membrane for flu101_tcsf ,ERROR
+2024003,3159,un0000000000002202,2025-01-24 17:25:45,False,2,LowLow Threshold breached for Membrane Temperature Compensated Specific Flux - Ultrafiltration Membrane for flu101_tcsf ,ERROR
+2024003,3146,un0000000000002202,2025-01-25 11:10:51,False,2,HighHigh Threshold breached for Fluid Turbidity - System Water Output for trb102_turbidity ,ERROR
+2024003,3127,un0000000000002202,2025-01-29 12:42:55,False,2,LowLow Threshold breached for Water Flow Rate - Water Pump Output for ftr102_flowrate ,ERROR
