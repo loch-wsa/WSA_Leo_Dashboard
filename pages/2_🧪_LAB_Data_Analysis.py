@@ -9,7 +9,11 @@ sys.path.append(str(root_dir))
 
 from utils.data_loader import load_all_data
 from utils.charts import create_radar_chart
-from utils.tiles import create_parameter_tiles_grid, create_collapsible_section
+from utils.tiles import (
+    create_parameter_tiles_grid,
+    create_collapsible_section,
+    create_log_reduction_tiles_grid
+)
 
 # Page config
 st.set_page_config(
@@ -30,8 +34,8 @@ def get_water_data():
         all_data['treated_ranges']
     )
 
-def display_microbial_section(data_df, ranges_df, week_num):
-    """Display microbial parameters in tiles"""
+def display_microbial_section(data_df, ranges_df, week_num, view_type='treated', influent_data=None):
+    """Display microbial parameters in tiles with optional log reduction"""
     # Get all microbial parameters
     microbial_params = ranges_df[ranges_df['Category'] == 'Microbial']
     
@@ -39,6 +43,10 @@ def display_microbial_section(data_df, ranges_df, week_num):
         params = []
         values = []
         statuses = []
+        
+        # For log reduction calculation
+        influent_values = []
+        treated_values = []
         
         week_col = f'Week {week_num}'
         
@@ -54,22 +62,52 @@ def display_microbial_section(data_df, ranges_df, week_num):
                     if pd.isna(value) or value == 'N/R':
                         values.append("Not Tested")
                         statuses.append('untested')
+                        treated_values.append("Not Tested")  # For log reduction
                     else:
                         try:
                             float_value = float(str(value).replace('<', ''))
                             values.append(f"{float_value:.1f} {row['Unit']}")
                             statuses.append('neutral')
+                            treated_values.append(float_value)  # For log reduction
                         except ValueError:
                             values.append(str(value))
                             statuses.append('neutral')
+                            treated_values.append(value)  # For log reduction
                 else:
                     values.append("Not Tested")
                     statuses.append('untested')
+                    treated_values.append("Not Tested")  # For log reduction
+                
+                # Get influent values for log reduction if in comparison mode
+                if view_type == 'comparison' and influent_data is not None:
+                    inf_param_data = influent_data[influent_data['ALS Lookup'] == row['ALS Lookup']]
+                    if not inf_param_data.empty:
+                        inf_value = inf_param_data[week_col].iloc[0]
+                        if pd.isna(inf_value) or inf_value == 'N/R':
+                            influent_values.append("Not Tested")
+                        else:
+                            try:
+                                inf_float_value = float(str(inf_value).replace('<', ''))
+                                influent_values.append(inf_float_value)
+                            except ValueError:
+                                influent_values.append(inf_value)
+                    else:
+                        influent_values.append("Not Tested")
             else:
                 values.append("Not Tested")
                 statuses.append('untested')
+                treated_values.append("Not Tested")  # For log reduction
+                if view_type == 'comparison' and influent_data is not None:
+                    influent_values.append("Not Tested")
         
+        # Always show parameter values
         create_parameter_tiles_grid(params, values, statuses)
+        
+        # Display log reduction tiles if in comparison mode, with values shown
+        if view_type == 'comparison' and influent_data is not None:
+            st.markdown("#### Log Reduction Values")
+            st.markdown("*1 Log = 90% removal, 2 Log = 99% removal, 3 Log = 99.9% removal, etc. ✅ = 6 Log or greater (99.9999%)*")
+            create_log_reduction_tiles_grid(params, influent_values, treated_values, cols=2, show_values=True)
 
 def display_category_section(category, data_df, treated_data, ranges_df, treated_ranges, week_num, view_type='treated', influent_data=None, influent_ranges=None):
     """Display a category section with radar chart and parameter tiles"""
@@ -101,6 +139,8 @@ def display_category_section(category, data_df, treated_data, ranges_df, treated
                 category
             )
             st.plotly_chart(fig, use_container_width=True)
+            
+            # We'll move log reduction display to the expander below
         
         with st.expander(f"View {category} Parameters", expanded=False):
             week_col = f'Week {week_num}'
@@ -110,6 +150,10 @@ def display_category_section(category, data_df, treated_data, ranges_df, treated
             ranges_min = []
             ranges_max = []
             units = []
+            
+            # For log reduction calculation
+            influent_values = []
+            treated_values = []
             
             for _, row in category_params.iterrows():
                 params.append(row['Parameter'])
@@ -125,10 +169,12 @@ def display_category_section(category, data_df, treated_data, ranges_df, treated
                         if pd.isna(value) or value == 'N/R':
                             values.append("Not Tested")
                             statuses.append('untested')
+                            treated_values.append("Not Tested")  # For log reduction
                         else:
                             try:
                                 float_value = float(str(value).replace('<', ''))
                                 values.append(float_value)
+                                treated_values.append(float_value)  # For log reduction
                                 
                                 min_val = float(row['Min']) if pd.notna(row['Min']) else None
                                 max_val = float(row['Max']) if pd.notna(row['Max']) else None
@@ -141,13 +187,35 @@ def display_category_section(category, data_df, treated_data, ranges_df, treated
                             except ValueError:
                                 values.append(str(value))
                                 statuses.append('neutral')
+                                treated_values.append(value)  # For log reduction
                     else:
                         values.append("Not Tested")
                         statuses.append('untested')
+                        treated_values.append("Not Tested")  # For log reduction
+                    
+                    # Get influent values for log reduction if in comparison mode
+                    if view_type == 'comparison' and influent_data is not None:
+                        inf_param_data = influent_data[influent_data['ALS Lookup'] == row['ALS Lookup']]
+                        if not inf_param_data.empty:
+                            inf_value = inf_param_data[week_col].iloc[0]
+                            if pd.isna(inf_value) or inf_value == 'N/R':
+                                influent_values.append("Not Tested")
+                            else:
+                                try:
+                                    inf_float_value = float(str(inf_value).replace('<', ''))
+                                    influent_values.append(inf_float_value)
+                                except ValueError:
+                                    influent_values.append(inf_value)
+                        else:
+                            influent_values.append("Not Tested")
                 else:
                     values.append("Not Tested")
                     statuses.append('untested')
+                    treated_values.append("Not Tested")  # For log reduction
+                    if view_type == 'comparison' and influent_data is not None:
+                        influent_values.append("Not Tested")
             
+            # Create parameter tiles
             create_parameter_tiles_grid(
                 parameters=params, 
                 values=values, 
@@ -156,6 +224,12 @@ def display_category_section(category, data_df, treated_data, ranges_df, treated
                 ranges_max=ranges_max,
                 units=units
             )
+            
+            # Create log reduction tiles if in comparison mode
+            if view_type == 'comparison' and influent_data is not None:
+                st.markdown("#### Log Reduction Values")
+                st.markdown("*1 Log = 90% removal, 2 Log = 99% removal, 3 Log = 99.9% removal, etc. ✅ = 6 Log or greater (99.9999%)*")
+                create_log_reduction_tiles_grid(params, influent_values, treated_values, cols=2, show_values=True)
 
 def render_water_analysis(data_df, treated_data, ranges_df, treated_ranges, week_num, view_type, influent_data=None, influent_ranges=None):
     """Render water analysis content for a specific view"""
@@ -182,7 +256,7 @@ def render_water_analysis(data_df, treated_data, ranges_df, treated_ranges, week
 
     # Microbial section
     st.subheader('Microbial Parameters')
-    display_microbial_section(data_df, ranges_df, week_num)
+    display_microbial_section(data_df, ranges_df, week_num, view_type, influent_data)
 
     # Additional categories
     for category in ['Radiological', 'Disinfection By-Products', 'Algae Toxins']:
@@ -227,9 +301,14 @@ def main():
             "🚰 Treated Water",
             "📊 Comparison"
         ])
+        
+        # Track current tab for conditional sidebar content
+        if 'current_tab' not in st.session_state:
+            st.session_state['current_tab'] = 'treated'  # Default
 
         # Influent Water Tab
         with tab1:
+            st.session_state['current_tab'] = 'influent'
             st.header("Influent Water Analysis")
             st.markdown(f"""
             Analyzing raw water characteristics for Week {week_num}.  
@@ -246,6 +325,7 @@ def main():
 
         # Treated Water Tab
         with tab2:
+            st.session_state['current_tab'] = 'treated'
             st.header("Treated Water Analysis")
             st.markdown(f"""
             Showing treated water quality parameters for Week {week_num}.  
@@ -262,10 +342,14 @@ def main():
 
         # Comparison Tab
         with tab3:
+            st.session_state['current_tab'] = 'comparison'
             st.header("Water Quality Comparison")
             st.markdown(f"""
             Week {week_num} comparison between influent and treated water.  
             The smaller radar plot area for treated water demonstrates the effectiveness of the Brolga treatment process.
+            
+            **Log Reduction Values** show the order of magnitude reduction achieved by the treatment process:
+            *1 Log = 90% removal, 2 Log = 99% removal, 3 Log = 99.9% removal, etc.*
             """)
             render_water_analysis(
                 treated_data,
@@ -278,9 +362,24 @@ def main():
                 influent_ranges
             )
 
-        # Warning message
+        # Info messages
         st.sidebar.markdown('---')
         st.sidebar.warning('Note: Values below detection limits are shown as the detection limit value. Actual values may be lower.')
+        
+        # Add log reduction explanation in comparison mode tab
+        if st.session_state.get('current_tab') == 'comparison':
+            st.sidebar.markdown('---')
+            st.sidebar.info("""
+            ### Log Reduction Values
+            - **1 Log** = 90% removal
+            - **2 Log** = 99% removal
+            - **3 Log** = 99.9% removal
+            - **4 Log** = 99.99% removal
+            - **5 Log** = 99.999% removal
+            - **≥6 Log ✅** = 99.9999% or greater removal
+            
+            Negative values (⚠️) indicate an increase after treatment.
+            """)
 
     except Exception as e:
         st.error(f"Error loading data: {str(e)}")
