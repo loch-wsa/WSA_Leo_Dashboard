@@ -357,12 +357,32 @@ def create_radar_chart(week_num, als_lookups, data_df, treated_data, ranges_df, 
             norm_comp = normalize_parameter(treated_value, param_name, min_val, max_val)
             
             if norm_base is not None:
+                # Create safe hover text for influent value
+                try:
+                    if influent_value is not None:
+                        if isinstance(influent_value, str):
+                            if influent_value.startswith('>') or influent_value.startswith('<'):
+                                hover_value = influent_value  # Keep original string for display
+                            elif influent_value.lower() in ('n/a', 'nr', 'n/r'):
+                                hover_value = 'N/A'
+                            else:
+                                try:
+                                    hover_value = f"{float(influent_value):.4f}"
+                                except (ValueError, TypeError):
+                                    hover_value = str(influent_value)
+                        else:
+                            hover_value = f"{float(influent_value):.4f}"
+                    else:
+                        hover_value = "N/A"
+                except Exception:
+                    hover_value = "Error"
+                    
                 fig.add_trace(go.Scatter(
                     x=base_x * norm_base,
                     y=base_y * norm_base,
                     name=f'Week {week_num}',
                     line=dict(color='#8B4513', width=1),
-                    hovertemplate=f"Week {week_num}: {influent_value:.4f} {unit}<extra></extra>"
+                    hovertemplate=f"Week {week_num}: {hover_value} {unit}<extra></extra>"
                 ))
             
             if norm_comp is not None:
@@ -371,35 +391,95 @@ def create_radar_chart(week_num, als_lookups, data_df, treated_data, ranges_df, 
                 if hasattr(st, 'session_state') and 'comparison_week' in st.session_state:
                     comp_week = st.session_state['comparison_week']
                 
+                # Create safe hover text for treated value
+                try:
+                    if treated_value is not None:
+                        if isinstance(treated_value, str):
+                            if treated_value.startswith('>') or treated_value.startswith('<'):
+                                hover_value = treated_value  # Keep original string for display
+                            elif treated_value.lower() in ('n/a', 'nr', 'n/r'):
+                                hover_value = 'N/A'
+                            else:
+                                try:
+                                    hover_value = f"{float(treated_value):.4f}"
+                                except (ValueError, TypeError):
+                                    hover_value = str(treated_value)
+                        else:
+                            hover_value = f"{float(treated_value):.4f}"
+                    else:
+                        hover_value = "N/A"
+                except Exception:
+                    hover_value = "Error"
+                
                 fig.add_trace(go.Scatter(
                     x=base_x * norm_comp,
                     y=base_y * norm_comp,
                     name=f'Week {comp_week}',
                     line=dict(color='#1E90FF', width=1),
-                    hovertemplate=f"Week {comp_week}: {treated_value:.4f} {unit}<extra></extra>"
+                    hovertemplate=f"Week {comp_week}: {hover_value} {unit}<extra></extra>"
                 ))
         else:
             # Standard influent/treated comparison
             if chart_type in ['influent', 'comparison']:
                 norm_influent = normalize_parameter(influent_value, param_name, min_val, max_val)
                 if norm_influent is not None:
+                    # Create safe hover text for influent value
+                    try:
+                        if influent_value is not None:
+                            if isinstance(influent_value, str):
+                                if influent_value.startswith('>') or influent_value.startswith('<'):
+                                    hover_value = influent_value  # Keep original string for display
+                                elif influent_value.lower() in ('n/a', 'nr', 'n/r'):
+                                    hover_value = 'N/A'
+                                else:
+                                    try:
+                                        hover_value = f"{float(influent_value):.4f}"
+                                    except (ValueError, TypeError):
+                                        hover_value = str(influent_value)
+                            else:
+                                hover_value = f"{float(influent_value):.4f}"
+                        else:
+                            hover_value = "N/A"
+                    except Exception:
+                        hover_value = "Error"
+                        
                     fig.add_trace(go.Scatter(
                         x=base_x * norm_influent,
                         y=base_y * norm_influent,
                         name='Influent Water',
                         line=dict(color='#8B4513', width=1),
-                        hovertemplate=f"Influent: {influent_value:.4f} {unit}<extra></extra>"
+                        hovertemplate=f"Influent: {hover_value} {unit}<extra></extra>"
                     ))
 
             if chart_type in ['treated', 'comparison']:
                 norm_treated = normalize_parameter(treated_value, param_name, min_val, max_val)
                 if norm_treated is not None:
+                    # Create safe hover text for treated value
+                    try:
+                        if treated_value is not None:
+                            if isinstance(treated_value, str):
+                                if treated_value.startswith('>') or treated_value.startswith('<'):
+                                    hover_value = treated_value  # Keep original string for display
+                                elif treated_value.lower() in ('n/a', 'nr', 'n/r'):
+                                    hover_value = 'N/A'
+                                else:
+                                    try:
+                                        hover_value = f"{float(treated_value):.4f}"
+                                    except (ValueError, TypeError):
+                                        hover_value = str(treated_value)
+                            else:
+                                hover_value = f"{float(treated_value):.4f}"
+                        else:
+                            hover_value = "N/A"
+                    except Exception:
+                        hover_value = "Error"
+                        
                     fig.add_trace(go.Scatter(
                         x=base_x * norm_treated,
                         y=base_y * norm_treated,
                         name='Treated Water',
                         line=dict(color='#1E90FF', width=1),
-                        hovertemplate=f"Treated: {treated_value:.4f} {unit}<extra></extra>"
+                        hovertemplate=f"Treated: {hover_value} {unit}<extra></extra>"
                     ))
 
         # Add grid circles (transparent)
@@ -424,27 +504,57 @@ def create_radar_chart(week_num, als_lookups, data_df, treated_data, ranges_df, 
             # For comparison, only show parameter name and reduction once
             label_text = f"{warning_symbol}{param_name}"
             if percent_diff is not None:
+                try:
+                    diff_text = f"{abs(percent_diff):.1f}% {'reduction' if percent_diff > 0 else 'increase'}"
+                except (ValueError, TypeError):
+                    diff_text = "N/A"
+                
                 fig.add_annotation(
                     x=0,
                     y=1.1,
-                    text=f"{abs(percent_diff):.1f}% {'reduction' if percent_diff > 0 else 'increase'}",
+                    text=diff_text,
                     showarrow=False,
                     font=dict(size=14)
                 )
         else:
             # For individual views, show value and range
             value_to_display = influent_value if chart_type == 'influent' else treated_value
-            if value_to_display is not None:
-                value_format = '.4f' if value_to_display <= 1 else '.1f'
-                label_text = (
-                    f"{warning_symbol}{param_name}\n"
-                    f"{value_to_display:{value_format}} "
-                    f"({min_val:.2f} - {max_val:.2f})"
-                )
-                if unit:
-                    label_text += f" {unit}"
-            else:
-                label_text = f"{warning_symbol}{param_name} \n No data available"
+            
+            try:
+                if value_to_display is not None:
+                    # Handle special string values
+                    if isinstance(value_to_display, str):
+                        if value_to_display.startswith('>') or value_to_display.startswith('<'):
+                            value_text = value_to_display  # Keep as is
+                        elif value_to_display.lower() in ('n/a', 'nr', 'n/r'):
+                            value_text = "N/A"
+                        else:
+                            try:
+                                value_num = float(value_to_display)
+                                value_format = '.4f' if value_num <= 1 else '.1f'
+                                value_text = f"{value_num:{value_format}}"
+                            except (ValueError, TypeError):
+                                value_text = str(value_to_display)
+                    else:
+                        # Numeric value
+                        value_format = '.4f' if float(value_to_display) <= 1 else '.1f'
+                        value_text = f"{float(value_to_display):{value_format}}"
+                        
+                    # Format range values safely
+                    try:
+                        min_val_str = f"{float(min_val):.2f}" if min_val is not None else "?"
+                        max_val_str = f"{float(max_val):.2f}" if max_val is not None else "?"
+                        range_text = f"({min_val_str} - {max_val_str})"
+                    except (ValueError, TypeError):
+                        range_text = "(range unknown)"
+                        
+                    label_text = f"{warning_symbol}{param_name}\n{value_text} {range_text}"
+                    if unit:
+                        label_text += f" {unit}"
+                else:
+                    label_text = f"{warning_symbol}{param_name} \n No data available"
+            except Exception:
+                label_text = f"{warning_symbol}{param_name} \n Error formatting data"
 
         # Add parameter label
         fig.add_annotation(
